@@ -582,6 +582,7 @@ table.matrix{border-collapse:collapse; font-size:11px; min-width:760px}
     </div>
     <div class="topbar-right">
       <button class="img-toggle" id="imgToggle" data-act="imgToggle" title="开关宝可梦图片（在线时显示，离线自动降级为文字）">图</button>
+      <button class="img-toggle" id="langToggle" data-act="lang" title="切换语言 / Language">中文</button>
       <div class="offline-tag">离线可用</div>
     </div>
   </header>
@@ -634,6 +635,7 @@ var EVO_LABEL = {
 /* 状态 */
 var state = {
   view: "dex",
+  lang: "zh",      // 界面语言：zh / en
   q: "",
   typeFilter: null,     // 属性筛选
   stFilter: "all",      // all / done / todo（捕捉状态）
@@ -688,6 +690,15 @@ try {
   var _mt = localStorage.getItem(MYTEAM_KEY);
   if (_mt) state.myTeam = JSON.parse(_mt) || [];
 } catch (e) { state.myTeam = []; }
+try {
+  var _lg = localStorage.getItem("la_lang_v1");
+  if (_lg === "en") state.lang = "en";
+} catch (e) {}
+try {
+  var _lq = location.search.match(/lang=(\w+)/);
+  if (_lq && (_lq[1] === "en" || _lq[1] === "zh")) state.lang = _lq[1];
+} catch (e) {}
+function saveLang(){ try { localStorage.setItem("la_lang_v1", state.lang); } catch (e) {} }
 function saveTeam(){
   try { localStorage.setItem(TEAM_VAR === "team6" ? TEAM6_KEY : TEAM_KEY, JSON.stringify(state[TEAM_VAR])); }
   catch (e) {}
@@ -748,10 +759,223 @@ function saveImg(){
   catch (e) {}
 }
 
+/* =====================================================
+ * i18n：中英文切换（词典替换式翻译，仅 en 模式生效）
+ * ===================================================== */
+var TYPE_EN = {
+  "一般":"Normal","格斗":"Fighting","飞行":"Flying","毒":"Poison","地面":"Ground",
+  "岩石":"Rock","虫":"Bug","幽灵":"Ghost","钢":"Steel","火":"Fire","水":"Water",
+  "草":"Grass","电":"Electric","超能力":"Psychic","冰":"Ice","龙":"Dragon",
+  "恶":"Dark","妖精":"Fairy"
+};
+var REGION_EN = {
+  "黑曜原野":"Obsidian Fieldlands","红莲湿地":"Crimson Mirelands","群青海岸":"Cobalt Coastlands",
+  "天冠山麓":"Coronet Highlands","纯白冻土":"Alabaster Icelands"
+};
+/* 静态 UI 词（长词优先，先插后替换按长度排序） */
+var TR_WORD = {
+  "不知道对手属性？直接搜宝可梦名字":"Don't know the opponent's types? Search a Pokémon by name",
+  "开关宝可梦图片（在线时显示，离线自动降级为文字）":"Toggle sprites (online only, offline shows name)",
+  "搜名称 / 英文名 / 编号":"Search name / English / no.",
+  "把之前导出的备份文字粘贴到这里":"Paste your exported backup text here",
+  "当前队伍（「当前队伍」页已选，最多 6 只）":"My Team (chosen on the My Team page, max 6)",
+  "选择要导入队伍的宝可梦":"Choose Pokémon to import into the team",
+  "你还没有标记任何已捕捉宝可梦，先去图鉴打勾。":"No captured Pokémon marked yet. Mark them in the Pokédex first.",
+  "还没有选择宝可梦。":"No Pokémon selected yet.",
+  "从上方下拉添加属性组合，或点「导入已捕捉」把已捕捉的宝可梦自动填入。":"Add type combos from the dropdown above, or use Import Captured to auto-fill.",
+  "队伍为空——先去「当前队伍」页选好要上阵的宝可梦，这里再按对手排克制榜/抗打榜。":"Team is empty — pick your team on the My Team page first, then rank by opponent here.",
+  "先选择对手的属性（可再点第二个属性组成双属性）。":"Select the opponent's type first (tap a second type for dual).",
+  "当前队伍是空的。":"My Team is empty.",
+  "先去「完克配队」选好你的宝可梦，再来这里排榜——只有上阵的这几只才参与对比。":"Pick your Pokémon on the Perfect Team page first — only the team members are ranked here.",
+  "当前队伍里没有能完克这个对手的。":"No team member perfectly counters this opponent.",
+  "当前队伍里没有能抵抗/免疫这个对手的。":"No team member resists / is immune to this opponent.",
+  "该区域暂无常规捕捉数据":"No regular catch data for this region",
+  "没找到这个名字":"No Pokémon found with that name",
+  "先在「图鉴」标记要上阵的宝可梦为已捕捉":"Mark the Pokémon you want as captured in the Pokédex first",
+  "这个属性组合在游戏里没有宝可梦":"This type combo does not exist in the game",
+  "单属性缺攻击完克：":"Single-type attack coverage missing: ",
+  "单属性缺防御完克：":"Single-type defense coverage missing: ",
+  "双属性缺攻或防完克：":"Dual-type attack-or-defense coverage missing: ",
+  "单属性缺防御不被克：":"Single-type safe-defense coverage missing: ",
+  "双属性缺防御不被克：":"Dual-type safe-defense coverage missing: ",
+  "还差一步":"Almost there",
+  "当前选择无法补完":"Current picks cannot complete coverage",
+  "无论后面选什么属性组合，都凑不齐完克覆盖。":"No matter what combos you add, full coverage is impossible.",
+  "建议删掉某一只（点槽位上的 ×）重配。":"Delete one (tap × on a slot) and rebuild.",
+  "可删掉一只换成下方更合适的组合，或返回图鉴补抓对应属性的宝可梦。":"Remove one for a better combo below, or catch the missing types in the Pokédex.",
+  "可进化成":"evolves into",
+  "从上方下拉添加属性组合":"Add a type combo from the dropdown above",
+  "完美队伍":"PERFECT TEAM",
+  "已满足全部完克条件":"satisfies all coverage conditions",
+  "任何单属性对手都有攻+防完克，任何双属性对手都有攻击或防御完克。":"Every single-type opponent is both attacked and defended super-effectively; every dual-type opponent is hit or resisted.",
+  "防御全覆盖队伍":"DEFENSE-COVERED TEAM",
+  "已凑齐防御端":"defense coverage complete",
+  "任何单/双属性对手都至少有一只不被克（≤1x）。":"Every single/dual-type opponent is met by at least one member at ≤1x.",
+  "注：严格 ≤0.5x 抗住的对手越多越稳，可在补位提示里优先选严格抗住双属性数高的组合。":"Tip: the more opponents resisted at ≤0.5x, the safer. Prefer combos with a high strict-resist count in the fill hints.",
+  "选 1~4 只你已有的宝可梦":"Pick 1~4 of your Pokémon",
+  "选最多 6 只实际上阵的宝可梦（从已捕捉里挑）；对战建议页的克制榜/抗打榜就从这 6 只里排。":"Pick up to 6 team members (from captured); the Battle page ranks these 6.",
+  "先去图鉴标记已捕捉":"Mark captured in the Pokédex first",
+  "这只已在队伍里":"Already in the team",
+  "加入队伍":"Add to Team",
+  "还差":"Need",
+  "种补法":"more combos",
+  "种完整补位方案":"complete fill combos",
+  "可直接补位":"can fill directly",
+  "不指定":"no specific",
+  "按区域看：":"Filter by region: ",
+  "全部区域":"All regions",
+  "已有":"Have",
+  "已完成":"Captured",
+  "还差这些":"Missing",
+  "图鉴收藏进度":"Pokédex Capture Progress",
+  "备份与恢复":"Backup & Restore",
+  "导出备份":"Export Backup",
+  "恢复备份":"Restore Backup",
+  "选择对手属性（可再点一个组成双属性）：":"Choose opponent type (tap another for dual):",
+  "对手：":"Opponent: ",
+  "未选择":"not selected",
+  "当前队伍":"My Team",
+  "对战建议":"Battle Advice",
+  "克制榜":"Attack (you counter)",
+  "抗打榜":"Defense (you resist)",
+  "搜索":"Search",
+  "全选":"Select All",
+  "清空勾选":"Clear Checked",
+  "导入选中":"Import Checked",
+  "导入已捕捉":"Import Captured",
+  "收起":"Collapse",
+  "清空":"Clear",
+  "加入队伍":"Add to Team",
+  "图鉴":"Pokédex",
+  "属性克制":"Type Chart",
+  "捕捉地点":"Locations",
+  "完克五队":"Perfect Team 5",
+  "完克六队":"Perfect Team 6",
+  "当前队伍":"My Team",
+  "推荐排行":"Rankings",
+  "对战":"Battle",
+  "收藏":"Favorites",
+  "种族值":"Base Stats",
+  "进化链":"Evolution Chain",
+  "捕捉地点":"Locations",
+  "出现条件":"Encounter Conditions",
+  "形态":"Form",
+  "传说宝可梦":"Legendary Pokémon",
+  "传说":"Legendary",
+  "头目":"Boss",
+  "普通":"Normal",
+  "时间":"Time",
+  "天气":"Weather",
+  "等级":"Level",
+  "地面":"Ground",
+  "水中":"Water",
+  "空中":"Sky",
+  "定点":"Fixed Spot",
+  "时空歪曲":"Space-Time Distortion",
+  "特定事件":"Special Event",
+  "洗翠形态":"Hisuian Form",
+  "洗翠·宝可梦攻略":"Hisui Pokémon Guide",
+  "宝可梦传说 阿尔宙斯 · HISUI":"Pokémon Legends: Arceus · HISUI",
+  "洗翠":"Hisui",
+  "全部":"All",
+  "离线可用":"Offline Ready",
+  "洗翠No.":"Hisui No.",
+  "神兽":"Legendary",
+  "宝可梦传说阿尔宙斯":"Pokémon Legends: Arceus",
+
+  "已捕捉":"Captured",
+  "未捕捉":"Not Captured",
+  "效果拔群":"Super Effective",
+  "效果不佳":"Not Very Effective",
+  "无效":"No Effect",
+  "攻击方查询":"Attack Query",
+  "防御方查询（反查）":"Defense Query (reverse)",
+  "双属性克制查询":"Dual-Type Query",
+  "反查：什么属性克制它":"Reverse: what counters it",
+  "综合最优":"Best Overall",
+  "弱点最少":"Fewest Weaknesses",
+  "克制最多":"Most Coverage",
+  "按属性":"by Type",
+  "总数值":"Total",
+  "编号":"No.",
+  "查看":"View",
+  "返回":"Back",
+  "关闭":"Close",
+  "确定":"OK",
+  "取消":"Cancel",
+  "排序":"Sort",
+  "筛选":"Filter",
+  "视图":"View",
+  "列表":"List",
+  "网格":"Grid"
+};
+/* 动态正则：先于词典替换 */
+var TR_PAT = [
+  [/待选 (\d+)/g, function(m, n){ return "Slot " + n; }],
+  [/已满 (\d+) 只/g, function(m, n){ return "Team full (" + n + ")"; }],
+  [/还有 (\d+) 种补法/g, function(m, n){ return n + " fill combos left"; }],
+  [/还有 (\d+) 种/g, function(m, n){ return n + " more"; }],
+  [/还差 (\d+) 只/g, function(m, n){ return n + " more needed"; }],
+  [/^还有 (\d+) 种补法$/g, function(m, n){ return n + " fill combos left"; }],
+  [/^(\d+) 种完整补位方案$/g, function(m, n){ return n + " complete fill combos"; }],
+  [/共\s*(\d+)\s*只/g, function(m, n){ return n + " Pokémon"; }],
+  [/^\s*(\d+)\s*只\s*$/g, function(m, n){ return n + " Pokémon"; }],
+  [/^(\d+)只$/g, function(m, n){ return n + " Pokémon"; }]
+];
+/* 宝可梦中文名 -> 英文名（长词优先） */
+var TR_NAME = [];
+(function(){
+  var seen = {};
+  for (var i = 0; i < D.dex.length; i++){
+    var e = D.dex[i];
+    if (!e[3] || seen[e[2]]) continue;
+    seen[e[2]] = 1;
+    TR_NAME.push([e[2], e[3]]);
+  }
+  TR_NAME.sort(function(a, b){ return b[0].length - a[0].length; });
+})();
+/* 静态词按长度降序（长词先替换，避免子串误伤） */
+var TR_WORD_SORT = [];
+(function(){
+  for (var k in TR_WORD) TR_WORD_SORT.push([k, TR_WORD[k]]);
+  TR_WORD_SORT.sort(function(a, b){ return b[0].length - a[0].length; });
+})();
+function translateText(s){
+  if (!s || state.lang !== "en") return s;
+  var i;
+  for (i = 0; i < TR_PAT.length; i++) s = s.replace(TR_PAT[i][0], TR_PAT[i][1]);
+  for (i = 0; i < TR_WORD_SORT.length; i++) s = s.split(TR_WORD_SORT[i][0]).join(TR_WORD_SORT[i][1]);
+  for (i = 0; i < TR_NAME.length; i++) s = s.split(TR_NAME[i][0]).join(TR_NAME[i][1]);
+  for (var k in TYPE_EN) s = s.split(k).join(TYPE_EN[k]);
+  for (var r in REGION_EN) s = s.split(r).join(REGION_EN[r]);
+  return s;
+}
+/* 渲染后翻译整个界面 DOM（文本节点 + title/placeholder；覆盖导航与详情弹层） */
+function translateDOM(){
+  var lt = document.getElementById("langToggle");
+  if (state.lang !== "en"){
+    if (lt) lt.textContent = "EN";
+    return;
+  }
+  var root = document.body;
+  if (!root) return;
+  var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+  while (walker.nextNode()) walker.currentNode.nodeValue = translateText(walker.currentNode.nodeValue);
+  var el, attrs = ["title", "placeholder", "aria-label"];
+  var all = root.querySelectorAll("*");
+  for (var i = 0; i < all.length; i++){
+    el = all[i];
+    for (var a = 0; a < attrs.length; a++){
+      if (el.getAttribute(attrs[a])) el.setAttribute(attrs[a], translateText(el.getAttribute(attrs[a])));
+    }
+  }
+  if (lt) lt.textContent = "中文";
+}
+
 var toastTimer = null;
 function toast(msg){
   var el = document.getElementById("toast");
-  el.textContent = msg;
+  el.textContent = translateText(msg);
   el.classList.add("show");
   clearTimeout(toastTimer);
   toastTimer = setTimeout(function(){ el.classList.remove("show"); }, 1800);
@@ -1592,6 +1816,7 @@ function render(){
   else if (state.view === "battle") v.innerHTML = renderBattle();
   else if (state.view === "fav") v.innerHTML = renderFav();
   bindSprites(v);
+  translateDOM();
 }
 
 /* ================= 图鉴页 ================= */
@@ -2146,6 +2371,11 @@ document.addEventListener("click", function(ev){
   else if (act === "imgToggle"){
     state.showImg = !state.showImg;
     saveImg();
+    render();
+  }
+  else if (act === "lang"){
+    state.lang = (state.lang === "en") ? "zh" : "en";
+    saveLang();
     render();
   }
   else if (act === "plr"){

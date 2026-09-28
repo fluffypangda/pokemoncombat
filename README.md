@@ -1,6 +1,6 @@
 # 宝可梦传说 阿尔宙斯 · 洗翠攻略（单文件离线 PWA）
 
-**语言 / Language：** [中文版（默认）](index.html) ｜ [English Version](index.html?lang=en)
+**语言 / Language：** [中文版（默认）](README.md) ｜ [English](README-en.md)
 
 一个 **单文件、纯本地、离线可用** 的《宝可梦传说 阿尔宙斯》洗翠地区攻略工具。全部图鉴 / 属性克制 / 捕捉地点数据内嵌在 `index.html` 里，不依赖任何服务器、CDN 或框架——拷贝这一个文件就能用，也支持 iPad 通过局域网访问并"添加到主屏幕"当 App 用。支持 **中英文一键切换**：顶栏「中文 / EN」按钮即时切换，语言选择自动记住；直接打开 `index.html?lang=en` 可一步进入英文版。
 

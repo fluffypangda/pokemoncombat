@@ -481,6 +481,8 @@ table.matrix{border-collapse:collapse; font-size:11px; min-width:760px}
 .tc-member .tm-name em{font-style:normal; font-size:10px; color:var(--gold2); margin-left:3px}
 .tc-member .tm-en{font-size:10px; color:var(--paper-dark)}
 .tc-member .tm-note{font-size:11px; color:#7fc06b; margin-left:auto; text-align:right}
+.dlink{cursor:pointer; text-decoration:underline dotted rgba(232,220,190,.45); text-underline-offset:2px}
+.dlink:hover{color:var(--gold2)}
 .tc-member.tc-fast{
   color:var(--gold); font-size:12px; justify-content:center; background:transparent;
   border:1px dashed var(--gold2);
@@ -1125,6 +1127,10 @@ function dexIdxByNo(no){
   for (var i = 0; i < D.dex.length; i++) if (D.dex[i][0] === no) return i;
   return -1;
 }
+function dexIdxByName(zh){
+  for (var i = 0; i < D.dex.length; i++) if (D.dex[i][2] === zh) return i;
+  return -1;
+}
 
 /* ===== 最终进化映射：沿进化链走到末端（最后一级第一分支），
  * 用于"按最终进化形态的属性占坑"（抓了水水獭 → 按大剑鬼的水/恶计算）===== */
@@ -1300,16 +1306,21 @@ function renderTeam(){
       var m = TM[s.ti];
       var slotName = m.rep;
       var evoNote = "";
+      var di3 = -1;
       if (s.no !== null){
         var di2 = dexIdxByNo(s.no);
         if (di2 !== -1){
+          di3 = di2;
           slotName = D.dex[di2][2];
           var fIdx = EVO_FINAL[di2];
-          if (fIdx !== di2) evoNote = ' <span class="t-evo">→ 可进化成 ' + esc(D.dex[fIdx][2]) + '（' + m.key + '）</span>';
+          if (fIdx !== di2) evoNote = ' <span class="t-evo">→ 可进化成 <span class="dlink" data-act="open" data-idx="' + fIdx + '">' + esc(D.dex[fIdx][2]) + '</span>（' + m.key + '）</span>';
         }
+      } else {
+        di3 = dexIdxByName(m.rep);
       }
       h += '<div class="team-slot filled">' + m.ts.map(function(t){ return typeTag(t); }).join("")
-        + '<span class="tname">' + esc(slotName) + '</span>' + evoNote
+        + (di3 !== -1 ? '<span class="tname dlink" data-act="open" data-idx="' + di3 + '">' + esc(slotName) + '</span>' : '<span class="tname">' + esc(slotName) + '</span>')
+        + evoNote
         + '<button class="tdel" data-act="tDel" data-i="' + i + '">×</button></div>';
     } else {
       h += '<div class="team-slot empty' + (i === curTeam().length ? ' next' : '') + '">待选 ' + (i + 1) + '</div>';
@@ -1504,7 +1515,7 @@ function teamCardHtml(idx, tag){
       }
       h += '<div class="tc-member' + (e[13] ? ' legend' : '') + '" data-act="tMember" data-i="' + idx + '" data-no="' + e[0] + '">'
         + '<span class="tm-no">№' + e[0] + '</span>'
-        + '<span class="tm-name">' + esc(e[2]) + (e[8] ? ' <em>洗翠</em>' : '') + '</span>'
+        + '<span class="tm-name dlink" data-act="open" data-idx="' + idx + '">' + esc(e[2]) + (e[8] ? ' <em>洗翠</em>' : '') + '</span>'
         + '<span class="tm-en">' + esc(e[3]) + '</span>'
         + '<span class="tm-note">' + note + '</span></div>';
     }
@@ -1569,7 +1580,7 @@ function renderBattle(){
       var di = dexIdxByNo(state.myTeam[si]);
       if (di === -1) continue;
       var ee = D.dex[di];
-      h += '<span class="bchip" style="cursor:default">'+esc(ee[2])+' '+ee[6].map(function(t){return typeTag(t);}).join("")+'</span>';
+      h += '<span class="bchip dlink" data-act="open" data-idx="'+di+'">'+esc(ee[2])+' '+ee[6].map(function(t){return typeTag(t);}).join("")+'</span>';
     }
     h += '</div>';
   }
@@ -1675,7 +1686,7 @@ function renderBattle(){
       return typeTag(p[0]) + '<span class="bc-mult">×' + p[1] + '</span>';
     }).join(" ");
     return '<div class="battle-card">'
-      + '<span class="bc-name">' + esc(x.e[2]) + '</span>'
+      + '<span class="bc-name dlink" data-act="open" data-idx="' + dexIdxByNo(x.e[0]) + '">' + esc(x.e[2]) + '</span>'
       + '<span class="bc-tot">总种族 ' + x.tot + '</span>'
       + (perf ? '<span class="perfect">完美</span>' : '')
       + '<span class="bc-tags">' + tags + '</span>'
@@ -1707,7 +1718,7 @@ function renderMyTeam(){
       var e = D.dex[di];
       h += '<div class="team-slot filled">'
         + e[6].map(function(t){return typeTag(t);}).join("")
-        + '<span class="tname">'+esc(e[2])+'</span>'
+        + '<span class="tname dlink" data-act="open" data-idx="'+di+'">'+esc(e[2])+'</span>'
         + '<button class="tdel" data-act="mtDel" data-i="'+i+'">×</button></div>';
     } else {
       h += '<div class="team-slot empty'+(i===state.myTeam.length?' next':'')+'">待选 '+(i+1)+'</div>';

@@ -1,0 +1,16 @@
+# 统一换行符为 LF（GitHub 显示与跨平台一致）
+* text=auto eol=lf
+
+# 明确文本文件
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.bat text eol=crlf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.ico binary

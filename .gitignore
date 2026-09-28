@@ -1,0 +1,15 @@
+# 自检截图产物（不属于交付物）
+_shots/
+_shots_*/
+
+# 开发期校验缓存（下划线开头临时 JSON）
+scripts/_*.json
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini

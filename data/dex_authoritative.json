@@ -1,0 +1,2579 @@
+[
+ {
+  "dex_no": 1,
+  "dex_national": 722,
+  "name_zh": "木木枭",
+  "types": [
+   "草",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 2,
+  "dex_national": 723,
+  "name_zh": "投羽枭",
+  "types": [
+   "草",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 3,
+  "dex_national": 724,
+  "name_zh": "狙射树枭",
+  "types": [
+   "草",
+   "格斗"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 4,
+  "dex_national": 155,
+  "name_zh": "火球鼠",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 5,
+  "dex_national": 156,
+  "name_zh": "火岩鼠",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 6,
+  "dex_national": 157,
+  "name_zh": "火暴兽",
+  "types": [
+   "火",
+   "幽灵"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 7,
+  "dex_national": 501,
+  "name_zh": "水水獭",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 8,
+  "dex_national": 502,
+  "name_zh": "双刃丸",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 9,
+  "dex_national": 503,
+  "name_zh": "大剑鬼",
+  "types": [
+   "水",
+   "恶"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 10,
+  "dex_national": 399,
+  "name_zh": "大牙狸",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 11,
+  "dex_national": 400,
+  "name_zh": "大尾狸",
+  "types": [
+   "一般",
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 12,
+  "dex_national": 396,
+  "name_zh": "姆克儿",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 13,
+  "dex_national": 397,
+  "name_zh": "姆克鸟",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 14,
+  "dex_national": 398,
+  "name_zh": "姆克鹰",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 15,
+  "dex_national": 403,
+  "name_zh": "小猫怪",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 16,
+  "dex_national": 404,
+  "name_zh": "勒克猫",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 17,
+  "dex_national": 405,
+  "name_zh": "伦琴猫",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 18,
+  "dex_national": 265,
+  "name_zh": "刺尾虫",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 19,
+  "dex_national": 266,
+  "name_zh": "甲壳茧",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 20,
+  "dex_national": 267,
+  "name_zh": "狩猎凤蝶",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 21,
+  "dex_national": 268,
+  "name_zh": "盾甲茧",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 22,
+  "dex_national": 269,
+  "name_zh": "毒粉蛾",
+  "types": [
+   "虫",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 23,
+  "dex_national": 77,
+  "name_zh": "小火马",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 24,
+  "dex_national": 78,
+  "name_zh": "烈焰马",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 25,
+  "dex_national": 133,
+  "name_zh": "伊布",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 26,
+  "dex_national": 134,
+  "name_zh": "水伊布",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 27,
+  "dex_national": 135,
+  "name_zh": "雷伊布",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 28,
+  "dex_national": 136,
+  "name_zh": "火伊布",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 29,
+  "dex_national": 196,
+  "name_zh": "太阳伊布",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 30,
+  "dex_national": 197,
+  "name_zh": "月亮伊布",
+  "types": [
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 31,
+  "dex_national": 470,
+  "name_zh": "叶伊布",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 32,
+  "dex_national": 471,
+  "name_zh": "冰伊布",
+  "types": [
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 33,
+  "dex_national": 700,
+  "name_zh": "仙子伊布",
+  "types": [
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 34,
+  "dex_national": 41,
+  "name_zh": "超音蝠",
+  "types": [
+   "毒",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 35,
+  "dex_national": 42,
+  "name_zh": "大嘴蝠",
+  "types": [
+   "毒",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 36,
+  "dex_national": 169,
+  "name_zh": "叉字蝠",
+  "types": [
+   "毒",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 37,
+  "dex_national": 425,
+  "name_zh": "飘飘球",
+  "types": [
+   "幽灵",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 38,
+  "dex_national": 426,
+  "name_zh": "随风球",
+  "types": [
+   "幽灵",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 39,
+  "dex_national": 401,
+  "name_zh": "圆法师",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 40,
+  "dex_national": 402,
+  "name_zh": "音箱蟀",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 41,
+  "dex_national": 418,
+  "name_zh": "泳圈鼬",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 42,
+  "dex_national": 419,
+  "name_zh": "浮潜鼬",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 43,
+  "dex_national": 412,
+  "name_zh": "结草儿",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 44,
+  "dex_national": 413,
+  "name_zh": "结草贵妇",
+  "types": [
+   "虫",
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 45,
+  "dex_national": 414,
+  "name_zh": "绅士蛾",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 46,
+  "dex_national": 74,
+  "name_zh": "小拳石",
+  "types": [
+   "岩石",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 47,
+  "dex_national": 75,
+  "name_zh": "隆隆石",
+  "types": [
+   "岩石",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 48,
+  "dex_national": 76,
+  "name_zh": "隆隆岩",
+  "types": [
+   "岩石",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 49,
+  "dex_national": 234,
+  "name_zh": "惊角鹿",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 50,
+  "dex_national": 899,
+  "name_zh": "诡角鹿",
+  "types": [
+   "一般",
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 51,
+  "dex_national": 446,
+  "name_zh": "小卡比兽",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 52,
+  "dex_national": 143,
+  "name_zh": "卡比兽",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 53,
+  "dex_national": 46,
+  "name_zh": "派拉斯",
+  "types": [
+   "虫",
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 54,
+  "dex_national": 47,
+  "name_zh": "派拉斯特",
+  "types": [
+   "虫",
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 55,
+  "dex_national": 172,
+  "name_zh": "皮丘",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 56,
+  "dex_national": 25,
+  "name_zh": "皮卡丘",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 57,
+  "dex_national": 26,
+  "name_zh": "雷丘",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 58,
+  "dex_national": 63,
+  "name_zh": "凯西",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 59,
+  "dex_national": 64,
+  "name_zh": "勇基拉",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 60,
+  "dex_national": 65,
+  "name_zh": "胡地",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 61,
+  "dex_national": 390,
+  "name_zh": "小火焰猴",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 62,
+  "dex_national": 391,
+  "name_zh": "猛火猴",
+  "types": [
+   "火",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 63,
+  "dex_national": 392,
+  "name_zh": "烈焰猴",
+  "types": [
+   "火",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 64,
+  "dex_national": 427,
+  "name_zh": "卷卷耳",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 65,
+  "dex_national": 428,
+  "name_zh": "长耳兔",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 66,
+  "dex_national": 420,
+  "name_zh": "樱花宝",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 67,
+  "dex_national": 421,
+  "name_zh": "樱花儿",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 68,
+  "dex_national": 54,
+  "name_zh": "可达鸭",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 69,
+  "dex_national": 55,
+  "name_zh": "哥达鸭",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 70,
+  "dex_national": 415,
+  "name_zh": "三蜜蜂",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 71,
+  "dex_national": 416,
+  "name_zh": "蜂女王",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 72,
+  "dex_national": 123,
+  "name_zh": "飞天螳螂",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 73,
+  "dex_national": 900,
+  "name_zh": "劈斧螳螂",
+  "types": [
+   "虫",
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 74,
+  "dex_national": 212,
+  "name_zh": "巨钳螳螂",
+  "types": [
+   "虫",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 75,
+  "dex_national": 214,
+  "name_zh": "赫拉克罗斯",
+  "types": [
+   "虫",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 76,
+  "dex_national": 439,
+  "name_zh": "魔尼尼",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 77,
+  "dex_national": 122,
+  "name_zh": "魔墙人偶",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 78,
+  "dex_national": 190,
+  "name_zh": "长尾怪手",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 79,
+  "dex_national": 424,
+  "name_zh": "双尾怪手",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 80,
+  "dex_national": 129,
+  "name_zh": "鲤鱼王",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 81,
+  "dex_national": 130,
+  "name_zh": "暴鲤龙",
+  "types": [
+   "水",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 82,
+  "dex_national": 422,
+  "name_zh": "无壳海兔",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 83,
+  "dex_national": 423,
+  "name_zh": "海兔兽",
+  "types": [
+   "水",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 84,
+  "dex_national": 211,
+  "name_zh": "千针鱼",
+  "types": [
+   "恶",
+   "毒"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 85,
+  "dex_national": 904,
+  "name_zh": "万针鱼",
+  "types": [
+   "恶",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 86,
+  "dex_national": 440,
+  "name_zh": "小福蛋",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 87,
+  "dex_national": 113,
+  "name_zh": "吉利蛋",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 88,
+  "dex_national": 242,
+  "name_zh": "幸福蛋",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 89,
+  "dex_national": 406,
+  "name_zh": "含羞苞",
+  "types": [
+   "草",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 90,
+  "dex_national": 315,
+  "name_zh": "毒蔷薇",
+  "types": [
+   "草",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 91,
+  "dex_national": 407,
+  "name_zh": "罗丝雷朵",
+  "types": [
+   "草",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 92,
+  "dex_national": 455,
+  "name_zh": "尖牙笼",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 93,
+  "dex_national": 548,
+  "name_zh": "百合根娃娃",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 94,
+  "dex_national": 549,
+  "name_zh": "裙儿小姐",
+  "types": [
+   "草",
+   "格斗"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 95,
+  "dex_national": 114,
+  "name_zh": "蔓藤怪",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 96,
+  "dex_national": 465,
+  "name_zh": "巨蔓藤",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 97,
+  "dex_national": 339,
+  "name_zh": "泥泥鳅",
+  "types": [
+   "水",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 98,
+  "dex_national": 340,
+  "name_zh": "鲶鱼王",
+  "types": [
+   "水",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 99,
+  "dex_national": 453,
+  "name_zh": "不良蛙",
+  "types": [
+   "毒",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 100,
+  "dex_national": 454,
+  "name_zh": "毒骷蛙",
+  "types": [
+   "毒",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 101,
+  "dex_national": 280,
+  "name_zh": "拉鲁拉丝",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 102,
+  "dex_national": 281,
+  "name_zh": "奇鲁莉安",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 103,
+  "dex_national": 282,
+  "name_zh": "沙奈朵",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 104,
+  "dex_national": 475,
+  "name_zh": "艾路雷朵",
+  "types": [
+   "超能力",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 105,
+  "dex_national": 193,
+  "name_zh": "蜻蜻蜓",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 106,
+  "dex_national": 469,
+  "name_zh": "远古巨蜓",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 107,
+  "dex_national": 449,
+  "name_zh": "沙河马",
+  "types": [
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 108,
+  "dex_national": 450,
+  "name_zh": "河马兽",
+  "types": [
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 109,
+  "dex_national": 417,
+  "name_zh": "帕奇利兹",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 110,
+  "dex_national": 434,
+  "name_zh": "臭鼬噗",
+  "types": [
+   "毒",
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 111,
+  "dex_national": 435,
+  "name_zh": "坦克臭鼬",
+  "types": [
+   "毒",
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 112,
+  "dex_national": 216,
+  "name_zh": "熊宝宝",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 113,
+  "dex_national": 217,
+  "name_zh": "圈圈熊",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 114,
+  "dex_national": 901,
+  "name_zh": "月月熊",
+  "types": [
+   "地面",
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 115,
+  "dex_national": 704,
+  "name_zh": "黏黏宝",
+  "types": [
+   "龙"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 116,
+  "dex_national": 705,
+  "name_zh": "黏美儿",
+  "types": [
+   "钢",
+   "龙"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 117,
+  "dex_national": 706,
+  "name_zh": "黏美龙",
+  "types": [
+   "钢",
+   "龙"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 118,
+  "dex_national": 95,
+  "name_zh": "大岩蛇",
+  "types": [
+   "岩石",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 119,
+  "dex_national": 208,
+  "name_zh": "大钢蛇",
+  "types": [
+   "钢",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 120,
+  "dex_national": 111,
+  "name_zh": "独角犀牛",
+  "types": [
+   "地面",
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 121,
+  "dex_national": 112,
+  "name_zh": "钻角犀兽",
+  "types": [
+   "地面",
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 122,
+  "dex_national": 464,
+  "name_zh": "超甲狂犀",
+  "types": [
+   "地面",
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 123,
+  "dex_national": 438,
+  "name_zh": "盆才怪",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 124,
+  "dex_national": 185,
+  "name_zh": "树才怪",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 125,
+  "dex_national": 108,
+  "name_zh": "大舌头",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 126,
+  "dex_national": 463,
+  "name_zh": "大舌舔",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 127,
+  "dex_national": 175,
+  "name_zh": "波克比",
+  "types": [
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 128,
+  "dex_national": 176,
+  "name_zh": "波克基古",
+  "types": [
+   "妖精",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 129,
+  "dex_national": 468,
+  "name_zh": "波克基斯",
+  "types": [
+   "妖精",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 130,
+  "dex_national": 387,
+  "name_zh": "草苗龟",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 131,
+  "dex_national": 388,
+  "name_zh": "树林龟",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 132,
+  "dex_national": 389,
+  "name_zh": "土台龟",
+  "types": [
+   "草",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 133,
+  "dex_national": 137,
+  "name_zh": "多边兽",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 134,
+  "dex_national": 233,
+  "name_zh": "多边兽Ⅱ",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 135,
+  "dex_national": 474,
+  "name_zh": "多边兽Ｚ",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 136,
+  "dex_national": 92,
+  "name_zh": "鬼斯",
+  "types": [
+   "幽灵",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 137,
+  "dex_national": 93,
+  "name_zh": "鬼斯通",
+  "types": [
+   "幽灵",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 138,
+  "dex_national": 94,
+  "name_zh": "耿鬼",
+  "types": [
+   "幽灵",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 139,
+  "dex_national": 442,
+  "name_zh": "花岩怪",
+  "types": [
+   "幽灵",
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 140,
+  "dex_national": 198,
+  "name_zh": "黑暗鸦",
+  "types": [
+   "恶",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 141,
+  "dex_national": 430,
+  "name_zh": "乌鸦头头",
+  "types": [
+   "恶",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 142,
+  "dex_national": 201,
+  "name_zh": "未知图腾",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 143,
+  "dex_national": 363,
+  "name_zh": "海豹球",
+  "types": [
+   "冰",
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 144,
+  "dex_national": 364,
+  "name_zh": "海魔狮",
+  "types": [
+   "冰",
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 145,
+  "dex_national": 365,
+  "name_zh": "帝牙海狮",
+  "types": [
+   "冰",
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 146,
+  "dex_national": 223,
+  "name_zh": "铁炮鱼",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 147,
+  "dex_national": 224,
+  "name_zh": "章鱼桶",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 148,
+  "dex_national": 451,
+  "name_zh": "钳尾蝎",
+  "types": [
+   "毒",
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 149,
+  "dex_national": 452,
+  "name_zh": "龙王蝎",
+  "types": [
+   "毒",
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 150,
+  "dex_national": 58,
+  "name_zh": "卡蒂狗",
+  "types": [
+   "火",
+   "岩石"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 151,
+  "dex_national": 59,
+  "name_zh": "风速狗",
+  "types": [
+   "火",
+   "岩石"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 152,
+  "dex_national": 431,
+  "name_zh": "魅力喵",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 153,
+  "dex_national": 432,
+  "name_zh": "东施喵",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 154,
+  "dex_national": 66,
+  "name_zh": "腕力",
+  "types": [
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 155,
+  "dex_national": 67,
+  "name_zh": "豪力",
+  "types": [
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 156,
+  "dex_national": 68,
+  "name_zh": "怪力",
+  "types": [
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 157,
+  "dex_national": 441,
+  "name_zh": "聒噪鸟",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 158,
+  "dex_national": 355,
+  "name_zh": "夜巡灵",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 159,
+  "dex_national": 356,
+  "name_zh": "彷徨夜灵",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 160,
+  "dex_national": 477,
+  "name_zh": "黑夜魔灵",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 161,
+  "dex_national": 393,
+  "name_zh": "波加曼",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 162,
+  "dex_national": 394,
+  "name_zh": "波皇子",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 163,
+  "dex_national": 395,
+  "name_zh": "帝王拿波",
+  "types": [
+   "水",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 164,
+  "dex_national": 458,
+  "name_zh": "小球飞鱼",
+  "types": [
+   "水",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 165,
+  "dex_national": 226,
+  "name_zh": "巨翅飞鱼",
+  "types": [
+   "水",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 166,
+  "dex_national": 550,
+  "name_zh": "野蛮鲈鱼",
+  "types": [
+   "水"
+  ],
+  "form": "白条纹的样子",
+  "hisui_form": false
+ },
+ {
+  "dex_no": 167,
+  "dex_national": 902,
+  "name_zh": "幽尾玄鱼",
+  "types": [
+   "水",
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 168,
+  "dex_national": 37,
+  "name_zh": "六尾",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 168,
+  "dex_national": 37,
+  "name_zh": "六尾",
+  "types": [
+   "冰"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 169,
+  "dex_national": 38,
+  "name_zh": "九尾",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 169,
+  "dex_national": 38,
+  "name_zh": "九尾",
+  "types": [
+   "冰",
+   "妖精"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 170,
+  "dex_national": 72,
+  "name_zh": "玛瑙水母",
+  "types": [
+   "水",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 171,
+  "dex_national": 73,
+  "name_zh": "毒刺水母",
+  "types": [
+   "水",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 172,
+  "dex_national": 456,
+  "name_zh": "荧光鱼",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 173,
+  "dex_national": 457,
+  "name_zh": "霓虹鱼",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 174,
+  "dex_national": 240,
+  "name_zh": "鸭嘴宝宝",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 175,
+  "dex_national": 126,
+  "name_zh": "鸭嘴火兽",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 176,
+  "dex_national": 467,
+  "name_zh": "鸭嘴炎兽",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 177,
+  "dex_national": 81,
+  "name_zh": "小磁怪",
+  "types": [
+   "电",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 178,
+  "dex_national": 82,
+  "name_zh": "三合一磁怪",
+  "types": [
+   "电",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 179,
+  "dex_national": 462,
+  "name_zh": "自爆磁怪",
+  "types": [
+   "电",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 180,
+  "dex_national": 436,
+  "name_zh": "铜镜怪",
+  "types": [
+   "钢",
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 181,
+  "dex_national": 437,
+  "name_zh": "青铜钟",
+  "types": [
+   "钢",
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 182,
+  "dex_national": 239,
+  "name_zh": "电击怪",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 183,
+  "dex_national": 125,
+  "name_zh": "电击兽",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 184,
+  "dex_national": 466,
+  "name_zh": "电击魔兽",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 185,
+  "dex_national": 207,
+  "name_zh": "天蝎",
+  "types": [
+   "地面",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 186,
+  "dex_national": 472,
+  "name_zh": "天蝎王",
+  "types": [
+   "地面",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 187,
+  "dex_national": 443,
+  "name_zh": "圆陆鲨",
+  "types": [
+   "龙",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 188,
+  "dex_national": 444,
+  "name_zh": "尖牙陆鲨",
+  "types": [
+   "龙",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 189,
+  "dex_national": 445,
+  "name_zh": "烈咬陆鲨",
+  "types": [
+   "龙",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 190,
+  "dex_national": 299,
+  "name_zh": "朝北鼻",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 191,
+  "dex_national": 476,
+  "name_zh": "大朝北鼻",
+  "types": [
+   "岩石",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 192,
+  "dex_national": 100,
+  "name_zh": "霹雳电球",
+  "types": [
+   "电",
+   "草"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 193,
+  "dex_national": 101,
+  "name_zh": "顽皮雷弹",
+  "types": [
+   "电",
+   "草"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 194,
+  "dex_national": 479,
+  "name_zh": "洛托姆",
+  "types": [
+   "电",
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 195,
+  "dex_national": 433,
+  "name_zh": "铃铛响",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 196,
+  "dex_national": 358,
+  "name_zh": "风铃铃",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 197,
+  "dex_national": 200,
+  "name_zh": "梦妖",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 198,
+  "dex_national": 429,
+  "name_zh": "梦妖魔",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 199,
+  "dex_national": 173,
+  "name_zh": "皮宝宝",
+  "types": [
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 200,
+  "dex_national": 35,
+  "name_zh": "皮皮",
+  "types": [
+   "妖精",
+   "0"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 201,
+  "dex_national": 36,
+  "name_zh": "皮可西",
+  "types": [
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 202,
+  "dex_national": 215,
+  "name_zh": "狃拉",
+  "types": [
+   "格斗",
+   "毒"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 202,
+  "dex_national": 215,
+  "name_zh": "狃拉",
+  "types": [
+   "恶",
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 203,
+  "dex_national": 903,
+  "name_zh": "大狃拉",
+  "types": [
+   "格斗",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 204,
+  "dex_national": 461,
+  "name_zh": "玛狃拉",
+  "types": [
+   "恶",
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 205,
+  "dex_national": 361,
+  "name_zh": "雪童子",
+  "types": [
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 206,
+  "dex_national": 362,
+  "name_zh": "冰鬼护",
+  "types": [
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 207,
+  "dex_national": 478,
+  "name_zh": "雪妖女",
+  "types": [
+   "冰",
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 208,
+  "dex_national": 408,
+  "name_zh": "头盖龙",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 209,
+  "dex_national": 409,
+  "name_zh": "战槌龙",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 210,
+  "dex_national": 410,
+  "name_zh": "盾甲龙",
+  "types": [
+   "岩石",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 211,
+  "dex_national": 411,
+  "name_zh": "护城龙",
+  "types": [
+   "岩石",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 212,
+  "dex_national": 220,
+  "name_zh": "小山猪",
+  "types": [
+   "冰",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 213,
+  "dex_national": 221,
+  "name_zh": "长毛猪",
+  "types": [
+   "冰",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 214,
+  "dex_national": 473,
+  "name_zh": "象牙猪",
+  "types": [
+   "冰",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 215,
+  "dex_national": 712,
+  "name_zh": "冰宝",
+  "types": [
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 216,
+  "dex_national": 713,
+  "name_zh": "冰岩怪",
+  "types": [
+   "冰",
+   "岩石"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 217,
+  "dex_national": 459,
+  "name_zh": "雪笠怪",
+  "types": [
+   "草",
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 218,
+  "dex_national": 460,
+  "name_zh": "暴雪王",
+  "types": [
+   "草",
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 219,
+  "dex_national": 570,
+  "name_zh": "索罗亚",
+  "types": [
+   "一般",
+   "幽灵"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 220,
+  "dex_national": 571,
+  "name_zh": "索罗亚克",
+  "types": [
+   "一般",
+   "幽灵"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 221,
+  "dex_national": 627,
+  "name_zh": "毛头小鹰",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 222,
+  "dex_national": 628,
+  "name_zh": "勇士雄鹰",
+  "types": [
+   "超能力",
+   "飞行"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true
+ },
+ {
+  "dex_no": 223,
+  "dex_national": 447,
+  "name_zh": "利欧路",
+  "types": [
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 224,
+  "dex_national": 448,
+  "name_zh": "路卡利欧",
+  "types": [
+   "格斗",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 225,
+  "dex_national": 480,
+  "name_zh": "由克希",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 226,
+  "dex_national": 481,
+  "name_zh": "艾姆利多",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 227,
+  "dex_national": 482,
+  "name_zh": "亚克诺姆",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 228,
+  "dex_national": 485,
+  "name_zh": "席多蓝恩",
+  "types": [
+   "火",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 229,
+  "dex_national": 486,
+  "name_zh": "雷吉奇卡斯",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 230,
+  "dex_national": 488,
+  "name_zh": "克雷色利亚",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 231,
+  "dex_national": 641,
+  "name_zh": "龙卷云",
+  "types": [
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 232,
+  "dex_national": 642,
+  "name_zh": "雷电云",
+  "types": [
+   "电",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 233,
+  "dex_national": 645,
+  "name_zh": "土地云",
+  "types": [
+   "地面",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 234,
+  "dex_national": 905,
+  "name_zh": "眷恋云",
+  "types": [
+   "妖精",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 235,
+  "dex_national": 483,
+  "name_zh": "帝牙卢卡",
+  "types": [
+   "钢",
+   "龙"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 236,
+  "dex_national": 484,
+  "name_zh": "帕路奇亚",
+  "types": [
+   "水",
+   "龙"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 237,
+  "dex_national": 487,
+  "name_zh": "骑拉帝纳",
+  "types": [
+   "幽灵",
+   "龙"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 238,
+  "dex_national": 493,
+  "name_zh": "阿尔宙斯",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 239,
+  "dex_national": 489,
+  "name_zh": "霏欧纳",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 240,
+  "dex_national": 490,
+  "name_zh": "玛纳霏",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 241,
+  "dex_national": 492,
+  "name_zh": "谢米",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false
+ },
+ {
+  "dex_no": 242,
+  "dex_national": 491,
+  "name_zh": "达克莱伊",
+  "types": [
+   "恶",
+   "0"
+  ],
+  "form": null,
+  "hisui_form": false
+ }
+]

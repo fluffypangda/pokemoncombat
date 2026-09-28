@@ -1,0 +1,11585 @@
+[
+ {
+  "dex_hisui": 1,
+  "dex_national": 722,
+  "name_zh": "木木枭",
+  "name_en": "Rowlet",
+  "name_ja": "モクロー",
+  "species": "草羽",
+  "types": [
+   "草",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 68,
+   "atk": 55,
+   "def": 55,
+   "spa": 50,
+   "spd": 50,
+   "spe": 42
+  },
+  "evolves": [
+   [
+    {
+     "name": "木木枭",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "投羽枭",
+     "form": null,
+     "evotype": "Level",
+     "level": "17",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "狙射树枭",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "36",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "3",
+    "place": "[[祝庆村]]",
+    "sub": "[[拉苯博士]]{{tt",
+    "note": "[[礼物宝可梦"
+   },
+   {
+    "category": "0",
+    "place": "[[祝庆村]]",
+    "sub": "[[拉苯博士]]{{tt",
+    "note": "[[礼物宝可梦"
+   },
+   {
+    "category": "0",
+    "place": "[[天冠山麓]]",
+    "sub": "[[时空歪曲]]",
+    "note": ""
+   }
+  ],
+  "height": "0.3",
+  "weight": "1.5"
+ },
+ {
+  "dex_hisui": 2,
+  "dex_national": 723,
+  "name_zh": "投羽枭",
+  "name_en": "Dartrix",
+  "name_ja": "フクスロー",
+  "species": "刃羽",
+  "types": [
+   "草",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 78,
+   "atk": 75,
+   "def": 75,
+   "spa": 70,
+   "spd": 70,
+   "spe": 52
+  },
+  "evolves": [
+   [
+    {
+     "name": "木木枭",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "投羽枭",
+     "form": null,
+     "evotype": "Level",
+     "level": "17",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "狙射树枭",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "36",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[天冠山麓]]",
+    "sub": "[[时空歪曲]]",
+    "note": ""
+   }
+  ],
+  "height": "0.7",
+  "weight": "16.0"
+ },
+ {
+  "dex_hisui": 3,
+  "dex_national": 724,
+  "name_zh": "狙射树枭",
+  "name_en": "Decidueye",
+  "name_ja": "ジュナイパー",
+  "species": "箭羽",
+  "types": [
+   "草",
+   "格斗"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 88,
+   "atk": 112,
+   "def": 80,
+   "spa": 95,
+   "spd": 95,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "木木枭",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "狙射树枭",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "36",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "36.6"
+ },
+ {
+  "dex_hisui": 4,
+  "dex_national": 155,
+  "name_zh": "火球鼠",
+  "name_en": "Cyndaquil",
+  "name_ja": "ヒノアラシ",
+  "species": "火鼠",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 39,
+   "atk": 52,
+   "def": 43,
+   "spa": 60,
+   "spd": 50,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "火球鼠",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "火岩鼠",
+     "form": null,
+     "evotype": "Level",
+     "level": "14",
+     "extra": "在其他地区"
+    }
+   ],
+   [
+    {
+     "name": "火暴兽",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "36",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "7.9"
+ },
+ {
+  "dex_hisui": 5,
+  "dex_national": 156,
+  "name_zh": "火岩鼠",
+  "name_en": "Quilava",
+  "name_ja": "マグマラシ",
+  "species": "火山",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 58,
+   "atk": 64,
+   "def": 58,
+   "spa": 80,
+   "spd": 65,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "火球鼠",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "火岩鼠",
+     "form": null,
+     "evotype": "Level",
+     "level": "14",
+     "extra": "在其他地区"
+    }
+   ],
+   [
+    {
+     "name": "火暴兽",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "36",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "19.0"
+ },
+ {
+  "dex_hisui": 6,
+  "dex_national": 157,
+  "name_zh": "火暴兽",
+  "name_en": "Typhlosion",
+  "name_ja": "バクフーン",
+  "species": "火山",
+  "types": [
+   "火",
+   "幽灵"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 73,
+   "atk": 84,
+   "def": 78,
+   "spa": 119,
+   "spd": 85,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "火球鼠",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "火暴兽",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "36",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.7",
+  "weight": "79.5"
+ },
+ {
+  "dex_hisui": 7,
+  "dex_national": 501,
+  "name_zh": "水水獭",
+  "name_en": "Oshawott",
+  "name_ja": "ミジュマル",
+  "species": "海獭",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 55,
+   "def": 45,
+   "spa": 63,
+   "spd": 45,
+   "spe": 45
+  },
+  "evolves": [
+   [
+    {
+     "name": "水水獭",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "双刃丸",
+     "form": null,
+     "evotype": "Level",
+     "level": "17",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大剑鬼",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "36",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "4",
+    "place": "[[祝庆村]]",
+    "sub": "[[拉苯博士]]{{tt",
+    "note": "[[礼物宝可梦"
+   },
+   {
+    "category": "0",
+    "place": "[[祝庆村]]",
+    "sub": "[[拉苯博士]]{{tt",
+    "note": "[[礼物宝可梦"
+   },
+   {
+    "category": "0",
+    "place": "[[纯白冻土]]",
+    "sub": "[[时空歪曲]]",
+    "note": ""
+   },
+   {
+    "category": "0",
+    "place": "[[纯白冻土]]",
+    "sub": "[[大大大量出現]]",
+    "note": ""
+   }
+  ],
+  "height": "0.5",
+  "weight": "5.9"
+ },
+ {
+  "dex_hisui": 8,
+  "dex_national": 502,
+  "name_zh": "双刃丸",
+  "name_en": "Dewott",
+  "name_ja": "フタチマル",
+  "species": "修行",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 75,
+   "def": 60,
+   "spa": 83,
+   "spd": 60,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "水水獭",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "双刃丸",
+     "form": null,
+     "evotype": "Level",
+     "level": "17",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大剑鬼",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "36",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[纯白冻土]]",
+    "sub": "[[时空歪曲]]",
+    "note": ""
+   },
+   {
+    "category": "1",
+    "place": "[[纯白冻土]]",
+    "sub": "[[大大大量出現]]",
+    "note": ""
+   }
+  ],
+  "height": "0.8",
+  "weight": "24.5"
+ },
+ {
+  "dex_hisui": 9,
+  "dex_national": 503,
+  "name_zh": "大剑鬼",
+  "name_en": "Samurott",
+  "name_ja": "ダイケンキ",
+  "species": "威严",
+  "types": [
+   "水",
+   "恶"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 90,
+   "atk": 108,
+   "def": 80,
+   "spa": 100,
+   "spd": 65,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "水水獭",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大剑鬼",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "36",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "94.6"
+ },
+ {
+  "dex_hisui": 10,
+  "dex_national": 399,
+  "name_zh": "大牙狸",
+  "name_en": "Bidoof",
+  "name_ja": "ビッパ",
+  "species": "圆鼠",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 59,
+   "atk": 45,
+   "def": 40,
+   "spa": 35,
+   "spd": 40,
+   "spe": 31
+  },
+  "evolves": [
+   [
+    {
+     "name": "大牙狸",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大尾狸",
+     "form": null,
+     "evotype": "Level",
+     "level": "15",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "20.0"
+ },
+ {
+  "dex_hisui": 11,
+  "dex_national": 400,
+  "name_zh": "大尾狸",
+  "name_en": "Bibarel",
+  "name_ja": "ビーダル",
+  "species": "河狸",
+  "types": [
+   "一般",
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 79,
+   "atk": 85,
+   "def": 60,
+   "spa": 55,
+   "spd": 60,
+   "spe": 71
+  },
+  "evolves": [
+   [
+    {
+     "name": "大牙狸",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大尾狸",
+     "form": null,
+     "evotype": "Level",
+     "level": "15",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "31.5"
+ },
+ {
+  "dex_hisui": 12,
+  "dex_national": 396,
+  "name_zh": "姆克儿",
+  "name_en": "Starly",
+  "name_ja": "ムックル",
+  "species": "椋鸟",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 55,
+   "def": 30,
+   "spa": 30,
+   "spd": 30,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "姆克儿",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "姆克鸟",
+     "form": null,
+     "evotype": "Level",
+     "level": "14",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "姆克鹰",
+     "form": null,
+     "evotype": "Level",
+     "level": "34",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "2.0"
+ },
+ {
+  "dex_hisui": 13,
+  "dex_national": 397,
+  "name_zh": "姆克鸟",
+  "name_en": "Staravia",
+  "name_ja": "ムクバード",
+  "species": "椋鸟",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 75,
+   "def": 50,
+   "spa": 40,
+   "spd": 40,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "姆克儿",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "姆克鸟",
+     "form": null,
+     "evotype": "Level",
+     "level": "14",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "姆克鹰",
+     "form": null,
+     "evotype": "Level",
+     "level": "34",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "15.5"
+ },
+ {
+  "dex_hisui": 14,
+  "dex_national": 398,
+  "name_zh": "姆克鹰",
+  "name_en": "Staraptor",
+  "name_ja": "ムクホーク",
+  "species": "猛禽",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 85,
+   "atk": 120,
+   "def": 70,
+   "spa": 50,
+   "spd": 60,
+   "spe": 100
+  },
+  "evolves": [
+   [
+    {
+     "name": "姆克儿",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "姆克鸟",
+     "form": null,
+     "evotype": "Level",
+     "level": "14",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "姆克鹰",
+     "form": null,
+     "evotype": "Level",
+     "level": "34",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "24.9"
+ },
+ {
+  "dex_hisui": 15,
+  "dex_national": 403,
+  "name_zh": "小猫怪",
+  "name_en": "Shinx",
+  "name_ja": "コリンク",
+  "species": "闪光",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 65,
+   "def": 34,
+   "spa": 40,
+   "spd": 34,
+   "spe": 45
+  },
+  "evolves": [
+   [
+    {
+     "name": "小猫怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "勒克猫",
+     "form": null,
+     "evotype": "Level",
+     "level": "15",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "伦琴猫",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "9.5"
+ },
+ {
+  "dex_hisui": 16,
+  "dex_national": 404,
+  "name_zh": "勒克猫",
+  "name_en": "Luxio",
+  "name_ja": "ルクシオ",
+  "species": "电光",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 85,
+   "def": 49,
+   "spa": 60,
+   "spd": 49,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "小猫怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "勒克猫",
+     "form": null,
+     "evotype": "Level",
+     "level": "15",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "伦琴猫",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "30.5"
+ },
+ {
+  "dex_hisui": 17,
+  "dex_national": 405,
+  "name_zh": "伦琴猫",
+  "name_en": "Luxray",
+  "name_ja": "レントラー",
+  "species": "目光",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 120,
+   "def": 79,
+   "spa": 95,
+   "spd": 79,
+   "spe": 70
+  },
+  "evolves": [
+   [
+    {
+     "name": "小猫怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "勒克猫",
+     "form": null,
+     "evotype": "Level",
+     "level": "15",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "伦琴猫",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.4",
+  "weight": "42.0"
+ },
+ {
+  "dex_hisui": 18,
+  "dex_national": 265,
+  "name_zh": "刺尾虫",
+  "name_en": "Wurmple",
+  "name_ja": "ケムッソ",
+  "species": "虫宝宝",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 45,
+   "def": 35,
+   "spa": 20,
+   "spd": 30,
+   "spe": 20
+  },
+  "evolves": [
+   [
+    {
+     "name": "刺尾虫",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "甲壳茧",
+     "form": null,
+     "evotype": "Level",
+     "level": "7",
+     "extra": "[[性格值#宝可梦的进化|随机]]"
+    },
+    {
+     "name": "盾甲茧",
+     "form": null,
+     "evotype": "Level",
+     "level": "7",
+     "extra": "[[性格值#宝可梦的进化|随机]]"
+    }
+   ],
+   [
+    {
+     "name": "狩猎凤蝶",
+     "form": null,
+     "evotype": "Level",
+     "level": "10",
+     "extra": null
+    },
+    {
+     "name": "毒粉蛾",
+     "form": null,
+     "evotype": "Level",
+     "level": "10",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "3.6"
+ },
+ {
+  "dex_hisui": 19,
+  "dex_national": 266,
+  "name_zh": "甲壳茧",
+  "name_en": "Silcoon",
+  "name_ja": "カラサリス",
+  "species": "蛹",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 35,
+   "def": 55,
+   "spa": 25,
+   "spd": 25,
+   "spe": 15
+  },
+  "evolves": [
+   [
+    {
+     "name": "刺尾虫",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "甲壳茧",
+     "form": null,
+     "evotype": "Level",
+     "level": "7",
+     "extra": "[[性格值#宝可梦的进化|随机]]"
+    }
+   ],
+   [
+    {
+     "name": "狩猎凤蝶",
+     "form": null,
+     "evotype": "Level",
+     "level": "10",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "10.0"
+ },
+ {
+  "dex_hisui": 20,
+  "dex_national": 267,
+  "name_zh": "狩猎凤蝶",
+  "name_en": "Beautifly",
+  "name_ja": "アゲハント",
+  "species": "蝴蝶",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 70,
+   "def": 50,
+   "spa": 100,
+   "spd": 50,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "刺尾虫",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "甲壳茧",
+     "form": null,
+     "evotype": "Level",
+     "level": "7",
+     "extra": "[[性格值#宝可梦的进化|随机]]"
+    }
+   ],
+   [
+    {
+     "name": "狩猎凤蝶",
+     "form": null,
+     "evotype": "Level",
+     "level": "10",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "28.4"
+ },
+ {
+  "dex_hisui": 21,
+  "dex_national": 268,
+  "name_zh": "盾甲茧",
+  "name_en": "Cascoon",
+  "name_ja": "マユルド",
+  "species": "蛹",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 35,
+   "def": 55,
+   "spa": 25,
+   "spd": 25,
+   "spe": 15
+  },
+  "evolves": [
+   [
+    {
+     "name": "刺尾虫",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "盾甲茧",
+     "form": null,
+     "evotype": "Level",
+     "level": "7",
+     "extra": "[[性格值#宝可梦的进化|随机]]"
+    }
+   ],
+   [
+    {
+     "name": "毒粉蛾",
+     "form": null,
+     "evotype": "Level",
+     "level": "10",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "11.5"
+ },
+ {
+  "dex_hisui": 22,
+  "dex_national": 269,
+  "name_zh": "毒粉蛾",
+  "name_en": "Dustox",
+  "name_ja": "ドクケイル",
+  "species": "毒蛾",
+  "types": [
+   "虫",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 50,
+   "def": 70,
+   "spa": 50,
+   "spd": 90,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "刺尾虫",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "盾甲茧",
+     "form": null,
+     "evotype": "Level",
+     "level": "7",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "毒粉蛾",
+     "form": null,
+     "evotype": "Level",
+     "level": "10",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "31.6"
+ },
+ {
+  "dex_hisui": 23,
+  "dex_national": 77,
+  "name_zh": "小火马",
+  "name_en": "Ponyta",
+  "name_ja": "ポニータ",
+  "species": "火马",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 85,
+   "def": 55,
+   "spa": 65,
+   "spd": 65,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "小火马",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "烈焰马",
+     "form": null,
+     "evotype": "Level",
+     "level": "40",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "30.0"
+ },
+ {
+  "dex_hisui": 24,
+  "dex_national": 78,
+  "name_zh": "烈焰马",
+  "name_en": "Rapidash",
+  "name_ja": "ギャロップ",
+  "species": "火马",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 100,
+   "def": 70,
+   "spa": 80,
+   "spd": 80,
+   "spe": 105
+  },
+  "evolves": [
+   [
+    {
+     "name": "小火马",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "烈焰马",
+     "form": null,
+     "evotype": "Level",
+     "level": "40",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.7",
+  "weight": "95.0"
+ },
+ {
+  "dex_hisui": 25,
+  "dex_national": 133,
+  "name_zh": "伊布",
+  "name_en": "Eevee",
+  "name_ja": "イーブイ",
+  "species": "进化",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 55,
+   "def": 50,
+   "spa": 45,
+   "spd": 65,
+   "spe": 55
+  },
+  "evolves": [
+   [
+    {
+     "name": "伊布",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "6.5"
+ },
+ {
+  "dex_hisui": 26,
+  "dex_national": 134,
+  "name_zh": "水伊布",
+  "name_en": "Vaporeon",
+  "name_ja": "シャワーズ",
+  "species": "吐泡",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 130,
+   "atk": 65,
+   "def": 60,
+   "spa": 110,
+   "spd": 95,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "伊布",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "水伊布",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "29.0"
+ },
+ {
+  "dex_hisui": 27,
+  "dex_national": 135,
+  "name_zh": "雷伊布",
+  "name_en": "Jolteon",
+  "name_ja": "サンダース",
+  "species": "雷",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 65,
+   "def": 60,
+   "spa": 110,
+   "spd": 95,
+   "spe": 130
+  },
+  "evolves": [
+   [
+    {
+     "name": "伊布",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "雷伊布",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "24.5"
+ },
+ {
+  "dex_hisui": 28,
+  "dex_national": 136,
+  "name_zh": "火伊布",
+  "name_en": "Flareon",
+  "name_ja": "ブースター",
+  "species": "火",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 130,
+   "def": 60,
+   "spa": 95,
+   "spd": 110,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "伊布",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "火伊布",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "25.0"
+ },
+ {
+  "dex_hisui": 29,
+  "dex_national": 196,
+  "name_zh": "太阳伊布",
+  "name_en": "Espeon",
+  "name_ja": "エーフィ",
+  "species": "太阳",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 65,
+   "def": 60,
+   "spa": 130,
+   "spd": 95,
+   "spe": 110
+  },
+  "evolves": [
+   [
+    {
+     "name": "伊布",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "太阳伊布",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "26.5"
+ },
+ {
+  "dex_hisui": 30,
+  "dex_national": 197,
+  "name_zh": "月亮伊布",
+  "name_en": "Umbreon",
+  "name_ja": "ブラッキー",
+  "species": "月光",
+  "types": [
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 95,
+   "atk": 65,
+   "def": 110,
+   "spa": 60,
+   "spd": 130,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "伊布",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "月亮伊布",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "27.0"
+ },
+ {
+  "dex_hisui": 31,
+  "dex_national": 470,
+  "name_zh": "叶伊布",
+  "name_en": "Leafeon",
+  "name_ja": "リーフィア",
+  "species": "新绿",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 110,
+   "def": 130,
+   "spa": 60,
+   "spd": 65,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "伊布",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "叶伊布",
+     "form": null,
+     "evotype": "Location",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "25.5"
+ },
+ {
+  "dex_hisui": 32,
+  "dex_national": 471,
+  "name_zh": "冰伊布",
+  "name_en": "Glaceon",
+  "name_ja": "グレイシア",
+  "species": "新雪",
+  "types": [
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 60,
+   "def": 110,
+   "spa": 130,
+   "spd": 95,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "伊布",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "冰伊布",
+     "form": null,
+     "evotype": "Location",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "25.9"
+ },
+ {
+  "dex_hisui": 33,
+  "dex_national": 700,
+  "name_zh": "仙子伊布",
+  "name_en": "Sylveon",
+  "name_ja": "ニンフィア",
+  "species": "连结",
+  "types": [
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 95,
+   "atk": 65,
+   "def": 65,
+   "spa": 110,
+   "spd": 130,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "伊布",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "仙子伊布",
+     "form": null,
+     "evotype": "Affection",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "23.5"
+ },
+ {
+  "dex_hisui": 34,
+  "dex_national": 41,
+  "name_zh": "超音蝠",
+  "name_en": "Zubat",
+  "name_ja": "ズバット",
+  "species": "蝙蝠",
+  "types": [
+   "毒",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 45,
+   "def": 35,
+   "spa": 30,
+   "spd": 40,
+   "spe": 55
+  },
+  "evolves": [
+   [
+    {
+     "name": "超音蝠",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大嘴蝠",
+     "form": null,
+     "evotype": "Level",
+     "level": "22",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "叉字蝠",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "7.5"
+ },
+ {
+  "dex_hisui": 35,
+  "dex_national": 42,
+  "name_zh": "大嘴蝠",
+  "name_en": "Golbat",
+  "name_ja": "ゴルバット",
+  "species": "蝙蝠",
+  "types": [
+   "毒",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 80,
+   "def": 70,
+   "spa": 65,
+   "spd": 75,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "超音蝠",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大嘴蝠",
+     "form": null,
+     "evotype": "Level",
+     "level": "22",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "叉字蝠",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "55.0"
+ },
+ {
+  "dex_hisui": 36,
+  "dex_national": 169,
+  "name_zh": "叉字蝠",
+  "name_en": "Crobat",
+  "name_ja": "クロバット",
+  "species": "蝙蝠",
+  "types": [
+   "毒",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 85,
+   "atk": 90,
+   "def": 80,
+   "spa": 70,
+   "spd": 80,
+   "spe": 130
+  },
+  "evolves": [
+   [
+    {
+     "name": "超音蝠",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大嘴蝠",
+     "form": null,
+     "evotype": "Level",
+     "level": "22",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "叉字蝠",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.8",
+  "weight": "75.0"
+ },
+ {
+  "dex_hisui": 37,
+  "dex_national": 425,
+  "name_zh": "飘飘球",
+  "name_en": "Drifloon",
+  "name_ja": "フワンテ",
+  "species": "气球",
+  "types": [
+   "幽灵",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 90,
+   "atk": 50,
+   "def": 34,
+   "spa": 60,
+   "spd": 44,
+   "spe": 70
+  },
+  "evolves": [
+   [
+    {
+     "name": "飘飘球",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "随风球",
+     "form": null,
+     "evotype": "Level",
+     "level": "28",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "1.2"
+ },
+ {
+  "dex_hisui": 38,
+  "dex_national": 426,
+  "name_zh": "随风球",
+  "name_en": "Drifblim",
+  "name_ja": "フワライド",
+  "species": "热气球",
+  "types": [
+   "幽灵",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 150,
+   "atk": 80,
+   "def": 44,
+   "spa": 90,
+   "spd": 54,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "飘飘球",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "随风球",
+     "form": null,
+     "evotype": "Level",
+     "level": "28",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "15.0"
+ },
+ {
+  "dex_hisui": 39,
+  "dex_national": 401,
+  "name_zh": "圆法师",
+  "name_en": "Kricketot",
+  "name_ja": "コロボーシ",
+  "species": "蟋蟀",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 37,
+   "atk": 25,
+   "def": 41,
+   "spa": 25,
+   "spd": 41,
+   "spe": 25
+  },
+  "evolves": [
+   [
+    {
+     "name": "圆法师",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "音箱蟀",
+     "form": null,
+     "evotype": "Level",
+     "level": "10",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "2.2"
+ },
+ {
+  "dex_hisui": 40,
+  "dex_national": 402,
+  "name_zh": "音箱蟀",
+  "name_en": "Kricketune",
+  "name_ja": "コロトック",
+  "species": "蟋蟀",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 77,
+   "atk": 85,
+   "def": 51,
+   "spa": 55,
+   "spd": 51,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "圆法师",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "音箱蟀",
+     "form": null,
+     "evotype": "Level",
+     "level": "10",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "25.5"
+ },
+ {
+  "dex_hisui": 41,
+  "dex_national": 418,
+  "name_zh": "泳圈鼬",
+  "name_en": "Buizel",
+  "name_ja": "ブイゼル",
+  "species": "海鼬",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 65,
+   "def": 35,
+   "spa": 60,
+   "spd": 30,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "泳圈鼬",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "浮潜鼬",
+     "form": null,
+     "evotype": "Level",
+     "level": "26",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "29.5"
+ },
+ {
+  "dex_hisui": 42,
+  "dex_national": 419,
+  "name_zh": "浮潜鼬",
+  "name_en": "Floatzel",
+  "name_ja": "フローゼル",
+  "species": "海鼬",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 85,
+   "atk": 105,
+   "def": 55,
+   "spa": 85,
+   "spd": 50,
+   "spe": 115
+  },
+  "evolves": [
+   [
+    {
+     "name": "泳圈鼬",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "浮潜鼬",
+     "form": null,
+     "evotype": "Level",
+     "level": "26",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "33.5"
+ },
+ {
+  "dex_hisui": 43,
+  "dex_national": 412,
+  "name_zh": "结草儿",
+  "name_en": "Burmy",
+  "name_ja": "ミノムッチ",
+  "species": "蓑衣虫",
+  "types": [
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 29,
+   "def": 45,
+   "spa": 29,
+   "spd": 45,
+   "spe": 36
+  },
+  "evolves": [
+   [
+    {
+     "name": "结草儿",
+     "form": null
+    }
+   ],
+   [
+    {
+     "name": "结草贵妇",
+     "evotype": "Level",
+     "level": "20",
+     "extra": "雌性（蓑衣决定属性）"
+    },
+    {
+     "name": "绅士蛾",
+     "evotype": "Level",
+     "level": "20",
+     "extra": "雄性"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.2",
+  "weight": "3.4"
+ },
+ {
+  "dex_hisui": 44,
+  "dex_national": 413,
+  "name_zh": "结草贵妇",
+  "name_en": "Wormadam",
+  "name_ja": "ミノマダム",
+  "species": "蓑衣虫",
+  "types": [
+   "虫",
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 59,
+   "def": 85,
+   "spa": 79,
+   "spd": 105,
+   "spe": 36
+  },
+  "evolves": [
+   [
+    {
+     "name": "结草儿",
+     "form": null
+    }
+   ],
+   [
+    {
+     "name": "结草贵妇",
+     "evotype": "Level",
+     "level": "20",
+     "extra": "雌性（蓑衣决定属性）"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "6.5"
+ },
+ {
+  "dex_hisui": 45,
+  "dex_national": 414,
+  "name_zh": "绅士蛾",
+  "name_en": "Mothim",
+  "name_ja": "ガーメイル",
+  "species": "蓑衣蛾",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 94,
+   "def": 50,
+   "spa": 94,
+   "spd": 50,
+   "spe": 66
+  },
+  "evolves": [
+   [
+    {
+     "name": "结草儿",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "绅士蛾",
+     "form": null,
+     "evotype": "Level",
+     "level": "20",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "23.3"
+ },
+ {
+  "dex_hisui": 46,
+  "dex_national": 74,
+  "name_zh": "小拳石",
+  "name_en": "Geodude",
+  "name_ja": "イシツブテ",
+  "species": "岩石",
+  "types": [
+   "岩石",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 80,
+   "def": 100,
+   "spa": 30,
+   "spd": 30,
+   "spe": 20
+  },
+  "evolves": [
+   [
+    {
+     "name": "小拳石",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "隆隆石",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "隆隆岩",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "20.0"
+ },
+ {
+  "dex_hisui": 47,
+  "dex_national": 75,
+  "name_zh": "隆隆石",
+  "name_en": "Graveler",
+  "name_ja": "ゴローン",
+  "species": "岩石",
+  "types": [
+   "岩石",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 95,
+   "def": 115,
+   "spa": 45,
+   "spd": 45,
+   "spe": 35
+  },
+  "evolves": [
+   [
+    {
+     "name": "小拳石",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "隆隆石",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "隆隆岩",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "105.0"
+ },
+ {
+  "dex_hisui": 48,
+  "dex_national": 76,
+  "name_zh": "隆隆岩",
+  "name_en": "Golem",
+  "name_ja": "ゴローニャ",
+  "species": "重量级",
+  "types": [
+   "岩石",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 120,
+   "def": 130,
+   "spa": 55,
+   "spd": 65,
+   "spe": 45
+  },
+  "evolves": [
+   [
+    {
+     "name": "小拳石",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "隆隆石",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "隆隆岩",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.4",
+  "weight": "300.0"
+ },
+ {
+  "dex_hisui": 49,
+  "dex_national": 234,
+  "name_zh": "惊角鹿",
+  "name_en": "Stantler",
+  "name_ja": "オドシシ",
+  "species": "大角",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 73,
+   "atk": 95,
+   "def": 62,
+   "spa": 85,
+   "spd": 65,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "惊角鹿",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "诡角鹿",
+     "form": null,
+     "evotype": "Movetimes",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.4",
+  "weight": "71.2"
+ },
+ {
+  "dex_hisui": 50,
+  "dex_national": 899,
+  "name_zh": "诡角鹿",
+  "name_en": "Wyrdeer",
+  "name_ja": "アヤシシ",
+  "species": "大角",
+  "types": [
+   "一般",
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 103,
+   "atk": 105,
+   "def": 72,
+   "spa": 105,
+   "spd": 75,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "惊角鹿",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "诡角鹿",
+     "form": null,
+     "evotype": "Movetimes",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[黑曜原野]]",
+    "sub": "[[大大大量出现]]",
+    "note": ""
+   }
+  ],
+  "height": "1.8",
+  "weight": "95.1"
+ },
+ {
+  "dex_hisui": 51,
+  "dex_national": 446,
+  "name_zh": "小卡比兽",
+  "name_en": "Munchlax",
+  "name_ja": "ゴンベ",
+  "species": "大胃王",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 135,
+   "atk": 85,
+   "def": 40,
+   "spa": 40,
+   "spd": 85,
+   "spe": 5
+  },
+  "evolves": [
+   [
+    {
+     "name": "小卡比兽",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "卡比兽",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "105.0"
+ },
+ {
+  "dex_hisui": 52,
+  "dex_national": 143,
+  "name_zh": "卡比兽",
+  "name_en": "Snorlax",
+  "name_ja": "カビゴン",
+  "species": "瞌睡",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 160,
+   "atk": 110,
+   "def": 65,
+   "spa": 65,
+   "spd": 110,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "小卡比兽",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "卡比兽",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.1",
+  "weight": "460.0"
+ },
+ {
+  "dex_hisui": 53,
+  "dex_national": 46,
+  "name_zh": "派拉斯",
+  "name_en": "Paras",
+  "name_ja": "パラス",
+  "species": "蘑菇",
+  "types": [
+   "虫",
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 35,
+   "atk": 70,
+   "def": 55,
+   "spa": 45,
+   "spd": 55,
+   "spe": 25
+  },
+  "evolves": [
+   [
+    {
+     "name": "派拉斯",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "派拉斯特",
+     "form": null,
+     "evotype": "Level",
+     "level": "24",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "5.4"
+ },
+ {
+  "dex_hisui": 54,
+  "dex_national": 47,
+  "name_zh": "派拉斯特",
+  "name_en": "Parasect",
+  "name_ja": "パラセクト",
+  "species": "蘑菇",
+  "types": [
+   "虫",
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 95,
+   "def": 80,
+   "spa": 60,
+   "spd": 80,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "派拉斯",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "派拉斯特",
+     "form": null,
+     "evotype": "Level",
+     "level": "24",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "29.5"
+ },
+ {
+  "dex_hisui": 55,
+  "dex_national": 172,
+  "name_zh": "皮丘",
+  "name_en": "Pichu",
+  "name_ja": "ピチュー",
+  "species": "小鼠",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 20,
+   "atk": 40,
+   "def": 15,
+   "spa": 35,
+   "spd": 35,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "皮丘",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "皮卡丘",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "雷丘",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "2.0"
+ },
+ {
+  "dex_hisui": 56,
+  "dex_national": 25,
+  "name_zh": "皮卡丘",
+  "name_en": "Pikachu",
+  "name_ja": "ピカチュウ",
+  "species": "鼠",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 35,
+   "atk": 55,
+   "def": 40,
+   "spa": 50,
+   "spd": 50,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "皮丘",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "皮卡丘",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "雷丘",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "6.0"
+ },
+ {
+  "dex_hisui": 57,
+  "dex_national": 26,
+  "name_zh": "雷丘",
+  "name_en": "Raichu",
+  "name_ja": "ライチュウ",
+  "species": "鼠",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 90,
+   "def": 55,
+   "spa": 90,
+   "spd": 80,
+   "spe": 110
+  },
+  "evolves": [
+   [
+    {
+     "name": "皮丘",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "皮卡丘",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "雷丘",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "30.0"
+ },
+ {
+  "dex_hisui": 58,
+  "dex_national": 63,
+  "name_zh": "凯西",
+  "name_en": "Abra",
+  "name_ja": "ケーシィ",
+  "species": "念力",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 25,
+   "atk": 20,
+   "def": 15,
+   "spa": 105,
+   "spd": 55,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "凯西",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "勇基拉",
+     "form": null,
+     "evotype": "Level",
+     "level": "16",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "胡地",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "19.5"
+ },
+ {
+  "dex_hisui": 59,
+  "dex_national": 64,
+  "name_zh": "勇基拉",
+  "name_en": "Kadabra",
+  "name_ja": "ユンゲラー",
+  "species": "念力",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 35,
+   "def": 30,
+   "spa": 120,
+   "spd": 70,
+   "spe": 105
+  },
+  "evolves": [
+   [
+    {
+     "name": "凯西",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "勇基拉",
+     "form": null,
+     "evotype": "Level",
+     "level": "16",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "胡地",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "56.5"
+ },
+ {
+  "dex_hisui": 60,
+  "dex_national": 65,
+  "name_zh": "胡地",
+  "name_en": "Alakazam",
+  "name_ja": "フーディン",
+  "species": "念力",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 50,
+   "def": 45,
+   "spa": 135,
+   "spd": 95,
+   "spe": 120
+  },
+  "evolves": [
+   [
+    {
+     "name": "凯西",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "勇基拉",
+     "form": null,
+     "evotype": "Level",
+     "level": "16",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "胡地",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "48.0"
+ },
+ {
+  "dex_hisui": 61,
+  "dex_national": 390,
+  "name_zh": "小火焰猴",
+  "name_en": "Chimchar",
+  "name_ja": "ヒコザル",
+  "species": "小猴",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 44,
+   "atk": 58,
+   "def": 44,
+   "spa": 58,
+   "spd": 44,
+   "spe": 61
+  },
+  "evolves": [
+   [
+    {
+     "name": "小火焰猴",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "猛火猴",
+     "form": null,
+     "evotype": "Level",
+     "level": "14",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "烈焰猴",
+     "form": null,
+     "evotype": "Level",
+     "level": "36",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "6.2"
+ },
+ {
+  "dex_hisui": 62,
+  "dex_national": 391,
+  "name_zh": "猛火猴",
+  "name_en": "Monferno",
+  "name_ja": "モウカザル",
+  "species": "顽皮",
+  "types": [
+   "火",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 64,
+   "atk": 78,
+   "def": 52,
+   "spa": 78,
+   "spd": 52,
+   "spe": 81
+  },
+  "evolves": [
+   [
+    {
+     "name": "小火焰猴",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "猛火猴",
+     "form": null,
+     "evotype": "Level",
+     "level": "14",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "烈焰猴",
+     "form": null,
+     "evotype": "Level",
+     "level": "36",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "22.0"
+ },
+ {
+  "dex_hisui": 63,
+  "dex_national": 392,
+  "name_zh": "烈焰猴",
+  "name_en": "Infernape",
+  "name_ja": "ゴウカザル",
+  "species": "火焰",
+  "types": [
+   "火",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 76,
+   "atk": 104,
+   "def": 71,
+   "spa": 104,
+   "spd": 71,
+   "spe": 108
+  },
+  "evolves": [
+   [
+    {
+     "name": "小火焰猴",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "猛火猴",
+     "form": null,
+     "evotype": "Level",
+     "level": "14",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "烈焰猴",
+     "form": null,
+     "evotype": "Level",
+     "level": "36",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "55.0"
+ },
+ {
+  "dex_hisui": 64,
+  "dex_national": 427,
+  "name_zh": "卷卷耳",
+  "name_en": "Buneary",
+  "name_ja": "ミミロル",
+  "species": "兔子",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 66,
+   "def": 44,
+   "spa": 44,
+   "spd": 56,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "卷卷耳",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "长耳兔",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "5.5"
+ },
+ {
+  "dex_hisui": 65,
+  "dex_national": 428,
+  "name_zh": "长耳兔",
+  "name_en": "Lopunny",
+  "name_ja": "ミミロップ",
+  "species": "兔子",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 76,
+   "def": 84,
+   "spa": 54,
+   "spd": 96,
+   "spe": 105
+  },
+  "evolves": [
+   [
+    {
+     "name": "卷卷耳",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "长耳兔",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "33.3"
+ },
+ {
+  "dex_hisui": 66,
+  "dex_national": 420,
+  "name_zh": "樱花宝",
+  "name_en": "Cherubi",
+  "name_ja": "チェリンボ",
+  "species": "樱桃",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 35,
+   "def": 45,
+   "spa": 62,
+   "spd": 53,
+   "spe": 35
+  },
+  "evolves": [
+   [
+    {
+     "name": "樱花宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "樱花儿",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "3.3"
+ },
+ {
+  "dex_hisui": 67,
+  "dex_national": 421,
+  "name_zh": "樱花儿",
+  "name_en": "Cherrim",
+  "name_ja": "チェリム",
+  "species": "樱花",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 60,
+   "def": 70,
+   "spa": 87,
+   "spd": 78,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "樱花宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "樱花儿",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "9.3"
+ },
+ {
+  "dex_hisui": 68,
+  "dex_national": 54,
+  "name_zh": "可达鸭",
+  "name_en": "Psyduck",
+  "name_ja": "コダック",
+  "species": "鸭",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 52,
+   "def": 48,
+   "spa": 65,
+   "spd": 50,
+   "spe": 55
+  },
+  "evolves": [
+   [
+    {
+     "name": "可达鸭",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "哥达鸭",
+     "form": null,
+     "evotype": "Level",
+     "level": "33",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "19.6"
+ },
+ {
+  "dex_hisui": 69,
+  "dex_national": 55,
+  "name_zh": "哥达鸭",
+  "name_en": "Golduck",
+  "name_ja": "ゴルダック",
+  "species": "鸭",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 82,
+   "def": 78,
+   "spa": 95,
+   "spd": 80,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "可达鸭",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "哥达鸭",
+     "form": null,
+     "evotype": "Level",
+     "level": "33",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.7",
+  "weight": "76.6"
+ },
+ {
+  "dex_hisui": 70,
+  "dex_national": 415,
+  "name_zh": "三蜜蜂",
+  "name_en": "Combee",
+  "name_ja": "ミツハニー",
+  "species": "幼蜂",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 30,
+   "atk": 30,
+   "def": 42,
+   "spa": 30,
+   "spd": 42,
+   "spe": 70
+  },
+  "evolves": [
+   [
+    {
+     "name": "三蜜蜂",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "蜂女王",
+     "form": null,
+     "evotype": "Level",
+     "level": "21",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "5.5"
+ },
+ {
+  "dex_hisui": 71,
+  "dex_national": 416,
+  "name_zh": "蜂女王",
+  "name_en": "Vespiquen",
+  "name_ja": "ビークイン",
+  "species": "蜂巢",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 80,
+   "def": 102,
+   "spa": 80,
+   "spd": 102,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "三蜜蜂",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "蜂女王",
+     "form": null,
+     "evotype": "Level",
+     "level": "21",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "38.5"
+ },
+ {
+  "dex_hisui": 72,
+  "dex_national": 123,
+  "name_zh": "飞天螳螂",
+  "name_en": "Scyther",
+  "name_ja": "ストライク",
+  "species": "螳螂",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 110,
+   "def": 80,
+   "spa": 55,
+   "spd": 80,
+   "spe": 105
+  },
+  "evolves": [
+   [
+    {
+     "name": "飞天螳螂",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "巨钳螳螂",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    },
+    {
+     "name": "劈斧螳螂",
+     "form": null,
+     "evotype": "Item",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "56.0"
+ },
+ {
+  "dex_hisui": 73,
+  "dex_national": 900,
+  "name_zh": "劈斧螳螂",
+  "name_en": "Kleavor",
+  "name_ja": "バサギリ",
+  "species": "斧钺",
+  "types": [
+   "虫",
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 135,
+   "def": 95,
+   "spa": 45,
+   "spd": 70,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "飞天螳螂",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "劈斧螳螂",
+     "form": null,
+     "evotype": "Item",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[黑曜原野]]",
+    "sub": "[[大大大量出现]]",
+    "note": ""
+   }
+  ],
+  "height": "1.8",
+  "weight": "89.0"
+ },
+ {
+  "dex_hisui": 74,
+  "dex_national": 212,
+  "name_zh": "巨钳螳螂",
+  "name_en": "Scizor",
+  "name_ja": "ハッサム",
+  "species": "钳子",
+  "types": [
+   "虫",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 130,
+   "def": 100,
+   "spa": 55,
+   "spd": 80,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "飞天螳螂",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "巨钳螳螂",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.8",
+  "weight": "118.0"
+ },
+ {
+  "dex_hisui": 75,
+  "dex_national": 214,
+  "name_zh": "赫拉克罗斯",
+  "name_en": "Heracross",
+  "name_ja": "ヘラクロス",
+  "species": "独角",
+  "types": [
+   "虫",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 125,
+   "def": 75,
+   "spa": 40,
+   "spd": 95,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "赫拉克罗斯",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "54.0"
+ },
+ {
+  "dex_hisui": 76,
+  "dex_national": 439,
+  "name_zh": "魔尼尼",
+  "name_en": "Mime Jr.",
+  "name_ja": "マネネ",
+  "species": "默剧",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 20,
+   "atk": 25,
+   "def": 45,
+   "spa": 70,
+   "spd": 90,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "魔尼尼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "魔墙人偶",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": "在其他地区"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "13.0"
+ },
+ {
+  "dex_hisui": 77,
+  "dex_national": 122,
+  "name_zh": "魔墙人偶",
+  "name_en": "Mr. Mime",
+  "name_ja": "バリヤード",
+  "species": "屏障",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 45,
+   "def": 65,
+   "spa": 100,
+   "spd": 120,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "魔尼尼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "魔墙人偶",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": "在其他地区"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "54.5"
+ },
+ {
+  "dex_hisui": 78,
+  "dex_national": 190,
+  "name_zh": "长尾怪手",
+  "name_en": "Aipom",
+  "name_ja": "エイパム",
+  "species": "长尾",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 70,
+   "def": 55,
+   "spa": 40,
+   "spd": 55,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "长尾怪手",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "双尾怪手",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "11.5"
+ },
+ {
+  "dex_hisui": 79,
+  "dex_national": 424,
+  "name_zh": "双尾怪手",
+  "name_en": "Ambipom",
+  "name_ja": "エテボース",
+  "species": "长尾",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 100,
+   "def": 66,
+   "spa": 60,
+   "spd": 66,
+   "spe": 115
+  },
+  "evolves": [
+   [
+    {
+     "name": "长尾怪手",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "双尾怪手",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "20.3"
+ },
+ {
+  "dex_hisui": 80,
+  "dex_national": 129,
+  "name_zh": "鲤鱼王",
+  "name_en": "Magikarp",
+  "name_ja": "コイキング",
+  "species": "鱼",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 20,
+   "atk": 10,
+   "def": 55,
+   "spa": 15,
+   "spd": 20,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "鲤鱼王",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "暴鲤龙",
+     "form": null,
+     "evotype": "Level",
+     "level": "20",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "10.0"
+ },
+ {
+  "dex_hisui": 81,
+  "dex_national": 130,
+  "name_zh": "暴鲤龙",
+  "name_en": "Gyarados",
+  "name_ja": "ギャラドス",
+  "species": "凶恶",
+  "types": [
+   "水",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 95,
+   "atk": 125,
+   "def": 79,
+   "spa": 60,
+   "spd": 100,
+   "spe": 81
+  },
+  "evolves": [
+   [
+    {
+     "name": "鲤鱼王",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "暴鲤龙",
+     "form": null,
+     "evotype": "Level",
+     "level": "20",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "6.5",
+  "weight": "235.0"
+ },
+ {
+  "dex_hisui": 82,
+  "dex_national": 422,
+  "name_zh": "无壳海兔",
+  "name_en": "Shellos",
+  "name_ja": "カラナクシ",
+  "species": "海兔",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 76,
+   "atk": 48,
+   "def": 48,
+   "spa": 57,
+   "spd": 62,
+   "spe": 34
+  },
+  "evolves": [
+   [
+    {
+     "name": "无壳海兔",
+     "form": "西海",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "6.3"
+ },
+ {
+  "dex_hisui": 83,
+  "dex_national": 423,
+  "name_zh": "海兔兽",
+  "name_en": "Gastrodon",
+  "name_ja": "トリトドン",
+  "species": "海兔",
+  "types": [
+   "水",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 111,
+   "atk": 83,
+   "def": 68,
+   "spa": 92,
+   "spd": 82,
+   "spe": 39
+  },
+  "evolves": [
+   [
+    {
+     "name": "无壳海兔",
+     "form": "西海",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "29.9"
+ },
+ {
+  "dex_hisui": 84,
+  "dex_national": 211,
+  "name_zh": "千针鱼",
+  "name_en": "Qwilfish",
+  "name_ja": "ハリーセン",
+  "species": "气球",
+  "types": [
+   "恶",
+   "毒"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 65,
+   "atk": 95,
+   "def": 85,
+   "spa": 55,
+   "spd": 55,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "千针鱼",
+     "form": "洗翠"
+    }
+   ],
+   [
+    {
+     "name": "万针鱼",
+     "evotype": "Movetimes",
+     "extra": "毒千针×20（刚猛）"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "3.9\n<!-- 洗翠千针鱼地区图鉴编号 -->"
+ },
+ {
+  "dex_hisui": 85,
+  "dex_national": 904,
+  "name_zh": "万针鱼",
+  "name_en": "Overqwil",
+  "name_ja": "ハリーマン",
+  "species": "剑山",
+  "types": [
+   "恶",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 85,
+   "atk": 115,
+   "def": 95,
+   "spa": 65,
+   "spd": 65,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "千针鱼",
+     "form": "洗翠"
+    }
+   ],
+   [
+    {
+     "name": "万针鱼",
+     "evotype": "Movetimes",
+     "extra": "毒千针×20（刚猛）"
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "2",
+    "place": "[[立志湖]]",
+    "sub": "定点{{tt",
+    "note": "*"
+   },
+   {
+    "category": "0",
+    "place": "[[群青海岸]]",
+    "sub": "[[大大大量出现]]",
+    "note": ""
+   }
+  ],
+  "height": "2.5",
+  "weight": "60.5"
+ },
+ {
+  "dex_hisui": 86,
+  "dex_national": 440,
+  "name_zh": "小福蛋",
+  "name_en": "Happiny",
+  "name_ja": "ピンプク",
+  "species": "家家酒",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 100,
+   "atk": 5,
+   "def": 5,
+   "spa": 15,
+   "spd": 65,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "小福蛋",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "吉利蛋",
+     "form": null,
+     "evotype": "Held",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "幸福蛋",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "24.4"
+ },
+ {
+  "dex_hisui": 87,
+  "dex_national": 113,
+  "name_zh": "吉利蛋",
+  "name_en": "Chansey",
+  "name_ja": "ラッキー",
+  "species": "蛋",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 250,
+   "atk": 5,
+   "def": 5,
+   "spa": 35,
+   "spd": 105,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "小福蛋",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "吉利蛋",
+     "form": null,
+     "evotype": "Held",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "幸福蛋",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "34.6"
+ },
+ {
+  "dex_hisui": 88,
+  "dex_national": 242,
+  "name_zh": "幸福蛋",
+  "name_en": "Blissey",
+  "name_ja": "ハピナス",
+  "species": "幸福",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 255,
+   "atk": 10,
+   "def": 10,
+   "spa": 75,
+   "spd": 135,
+   "spe": 55
+  },
+  "evolves": [
+   [
+    {
+     "name": "小福蛋",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "吉利蛋",
+     "form": null,
+     "evotype": "Held",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "幸福蛋",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "46.8"
+ },
+ {
+  "dex_hisui": 89,
+  "dex_national": 406,
+  "name_zh": "含羞苞",
+  "name_en": "Budew",
+  "name_ja": "スボミー",
+  "species": "花苞",
+  "types": [
+   "草",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 30,
+   "def": 35,
+   "spa": 50,
+   "spd": 70,
+   "spe": 55
+  },
+  "evolves": [
+   [
+    {
+     "name": "含羞苞",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "毒蔷薇",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "罗丝雷朵",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.2",
+  "weight": "1.2"
+ },
+ {
+  "dex_hisui": 90,
+  "dex_national": 315,
+  "name_zh": "毒蔷薇",
+  "name_en": "Roselia",
+  "name_ja": "ロゼリア",
+  "species": "荆棘",
+  "types": [
+   "草",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 60,
+   "def": 45,
+   "spa": 100,
+   "spd": 80,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "含羞苞",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "毒蔷薇",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "罗丝雷朵",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "2.0"
+ },
+ {
+  "dex_hisui": 91,
+  "dex_national": 407,
+  "name_zh": "罗丝雷朵",
+  "name_en": "Roserade",
+  "name_ja": "ロズレイド",
+  "species": "花束",
+  "types": [
+   "草",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 70,
+   "def": 65,
+   "spa": 125,
+   "spd": 105,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "含羞苞",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "毒蔷薇",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "罗丝雷朵",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "14.5"
+ },
+ {
+  "dex_hisui": 92,
+  "dex_national": 455,
+  "name_zh": "尖牙笼",
+  "name_en": "Carnivine",
+  "name_ja": "マスキッパ",
+  "species": "捕虫",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 74,
+   "atk": 100,
+   "def": 72,
+   "spa": 90,
+   "spd": 72,
+   "spe": 46
+  },
+  "evolves": [
+   [
+    {
+     "name": "尖牙笼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.4",
+  "weight": "27.0"
+ },
+ {
+  "dex_hisui": 93,
+  "dex_national": 548,
+  "name_zh": "百合根娃娃",
+  "name_en": "Petilil",
+  "name_ja": "チュリネ",
+  "species": "根茎",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 35,
+   "def": 50,
+   "spa": 70,
+   "spd": 50,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "百合根娃娃",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "裙儿小姐",
+     "form": "洗翠",
+     "evotype": "Stone",
+     "level": null,
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "6.6"
+ },
+ {
+  "dex_hisui": 94,
+  "dex_national": 549,
+  "name_zh": "裙儿小姐",
+  "name_en": "Lilligant",
+  "name_ja": "ドレディア",
+  "species": "花饰",
+  "types": [
+   "草",
+   "格斗"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 70,
+   "atk": 105,
+   "def": 75,
+   "spa": 50,
+   "spd": 75,
+   "spe": 105
+  },
+  "evolves": [
+   [
+    {
+     "name": "百合根娃娃",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "裙儿小姐",
+     "form": "洗翠",
+     "evotype": "Stone",
+     "level": null,
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "16.3"
+ },
+ {
+  "dex_hisui": 95,
+  "dex_national": 114,
+  "name_zh": "蔓藤怪",
+  "name_en": "Tangela",
+  "name_ja": "モンジャラ",
+  "species": "藤蔓状",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 55,
+   "def": 115,
+   "spa": 100,
+   "spd": 40,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "蔓藤怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "巨蔓藤",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "35.0"
+ },
+ {
+  "dex_hisui": 96,
+  "dex_national": 465,
+  "name_zh": "巨蔓藤",
+  "name_en": "Tangrowth",
+  "name_ja": "モジャンボ",
+  "species": "藤蔓状",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 100,
+   "atk": 100,
+   "def": 125,
+   "spa": 110,
+   "spd": 50,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "蔓藤怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "巨蔓藤",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.0",
+  "weight": "128.6"
+ },
+ {
+  "dex_hisui": 97,
+  "dex_national": 339,
+  "name_zh": "泥泥鳅",
+  "name_en": "Barboach",
+  "name_ja": "ドジョッチ",
+  "species": "须鱼",
+  "types": [
+   "水",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 48,
+   "def": 43,
+   "spa": 46,
+   "spd": 41,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "泥泥鳅",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鲶鱼王",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "1.9"
+ },
+ {
+  "dex_hisui": 98,
+  "dex_national": 340,
+  "name_zh": "鲶鱼王",
+  "name_en": "Whiscash",
+  "name_ja": "ナマズン",
+  "species": "须鱼",
+  "types": [
+   "水",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 110,
+   "atk": 78,
+   "def": 73,
+   "spa": 76,
+   "spd": 71,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "泥泥鳅",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鲶鱼王",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "23.6"
+ },
+ {
+  "dex_hisui": 99,
+  "dex_national": 453,
+  "name_zh": "不良蛙",
+  "name_en": "Croagunk",
+  "name_ja": "グレッグル",
+  "species": "毒击",
+  "types": [
+   "毒",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 48,
+   "atk": 61,
+   "def": 40,
+   "spa": 61,
+   "spd": 40,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "不良蛙",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "毒骷蛙",
+     "form": null,
+     "evotype": "Level",
+     "level": "37",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "23.0"
+ },
+ {
+  "dex_hisui": 100,
+  "dex_national": 454,
+  "name_zh": "毒骷蛙",
+  "name_en": "Toxicroak",
+  "name_ja": "ドクロッグ",
+  "species": "毒击",
+  "types": [
+   "毒",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 83,
+   "atk": 106,
+   "def": 65,
+   "spa": 86,
+   "spd": 65,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "不良蛙",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "毒骷蛙",
+     "form": null,
+     "evotype": "Level",
+     "level": "37",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "44.4"
+ },
+ {
+  "dex_hisui": 101,
+  "dex_national": 280,
+  "name_zh": "拉鲁拉丝",
+  "name_en": "Ralts",
+  "name_ja": "ラルトス",
+  "species": "心情",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 28,
+   "atk": 25,
+   "def": 25,
+   "spa": 45,
+   "spd": 35,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "拉鲁拉丝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "奇鲁莉安",
+     "form": null,
+     "evotype": "Level",
+     "level": "20",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "沙奈朵",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    },
+    {
+     "name": "艾路雷朵",
+     "form": null,
+     "evotype": "Stone",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "6.6"
+ },
+ {
+  "dex_hisui": 102,
+  "dex_national": 281,
+  "name_zh": "奇鲁莉安",
+  "name_en": "Kirlia",
+  "name_ja": "キルリア",
+  "species": "感情",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 38,
+   "atk": 35,
+   "def": 35,
+   "spa": 65,
+   "spd": 55,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "拉鲁拉丝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "奇鲁莉安",
+     "form": null,
+     "evotype": "Level",
+     "level": "20",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "沙奈朵",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    },
+    {
+     "name": "艾路雷朵",
+     "form": null,
+     "evotype": "Stone",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "20.2"
+ },
+ {
+  "dex_hisui": 103,
+  "dex_national": 282,
+  "name_zh": "沙奈朵",
+  "name_en": "Gardevoir",
+  "name_ja": "サーナイト",
+  "species": "包容",
+  "types": [
+   "超能力",
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 68,
+   "atk": 65,
+   "def": 65,
+   "spa": 125,
+   "spd": 115,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "拉鲁拉丝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "奇鲁莉安",
+     "form": null,
+     "evotype": "Level",
+     "level": "20",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "沙奈朵",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "48.4"
+ },
+ {
+  "dex_hisui": 104,
+  "dex_national": 475,
+  "name_zh": "艾路雷朵",
+  "name_en": "Gallade",
+  "name_ja": "エルレイド",
+  "species": "利刃",
+  "types": [
+   "超能力",
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 68,
+   "atk": 125,
+   "def": 65,
+   "spa": 65,
+   "spd": 115,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "拉鲁拉丝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "奇鲁莉安",
+     "form": null,
+     "evotype": "Level",
+     "level": "20",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "艾路雷朵",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "52.0"
+ },
+ {
+  "dex_hisui": 105,
+  "dex_national": 193,
+  "name_zh": "蜻蜻蜓",
+  "name_en": "Yanma",
+  "name_ja": "ヤンヤンマ",
+  "species": "薄翼",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 65,
+   "def": 45,
+   "spa": 75,
+   "spd": 45,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "蜻蜻蜓",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "远古巨蜓",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "38.0"
+ },
+ {
+  "dex_hisui": 106,
+  "dex_national": 469,
+  "name_zh": "远古巨蜓",
+  "name_en": "Yanmega",
+  "name_ja": "メガヤンマ",
+  "species": "勾蜓",
+  "types": [
+   "虫",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 86,
+   "atk": 76,
+   "def": 86,
+   "spa": 116,
+   "spd": 56,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "蜻蜻蜓",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "远古巨蜓",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.9",
+  "weight": "51.5"
+ },
+ {
+  "dex_hisui": 107,
+  "dex_national": 449,
+  "name_zh": "沙河马",
+  "name_en": "Hippopotas",
+  "name_ja": "ヒポポタス",
+  "species": "河马",
+  "types": [
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 68,
+   "atk": 72,
+   "def": 78,
+   "spa": 38,
+   "spd": 42,
+   "spe": 32
+  },
+  "evolves": [
+   [
+    {
+     "name": "沙河马",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "河马兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "34",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "49.5"
+ },
+ {
+  "dex_hisui": 108,
+  "dex_national": 450,
+  "name_zh": "河马兽",
+  "name_en": "Hippowdon",
+  "name_ja": "カバルドン",
+  "species": "重量",
+  "types": [
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 108,
+   "atk": 112,
+   "def": 118,
+   "spa": 68,
+   "spd": 72,
+   "spe": 47
+  },
+  "evolves": [
+   [
+    {
+     "name": "沙河马",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "河马兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "34",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.0",
+  "weight": "300.0"
+ },
+ {
+  "dex_hisui": 109,
+  "dex_national": 417,
+  "name_zh": "帕奇利兹",
+  "name_en": "Pachirisu",
+  "name_ja": "パチリス",
+  "species": "电松鼠",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 45,
+   "def": 70,
+   "spa": 45,
+   "spd": 90,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "帕奇利兹",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "3.9"
+ },
+ {
+  "dex_hisui": 110,
+  "dex_national": 434,
+  "name_zh": "臭鼬噗",
+  "name_en": "Stunky",
+  "name_ja": "スカンプー",
+  "species": "臭鼬",
+  "types": [
+   "毒",
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 63,
+   "atk": 63,
+   "def": 47,
+   "spa": 41,
+   "spd": 41,
+   "spe": 74
+  },
+  "evolves": [
+   [
+    {
+     "name": "臭鼬噗",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "坦克臭鼬",
+     "form": null,
+     "evotype": "Level",
+     "level": "34",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "19.2"
+ },
+ {
+  "dex_hisui": 111,
+  "dex_national": 435,
+  "name_zh": "坦克臭鼬",
+  "name_en": "Skuntank",
+  "name_ja": "スカタンク",
+  "species": "臭鼬",
+  "types": [
+   "毒",
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 103,
+   "atk": 93,
+   "def": 67,
+   "spa": 71,
+   "spd": 61,
+   "spe": 84
+  },
+  "evolves": [
+   [
+    {
+     "name": "臭鼬噗",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "坦克臭鼬",
+     "form": null,
+     "evotype": "Level",
+     "level": "34",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "38.0"
+ },
+ {
+  "dex_hisui": 112,
+  "dex_national": 216,
+  "name_zh": "熊宝宝",
+  "name_en": "Teddiursa",
+  "name_ja": "ヒメグマ",
+  "species": "小熊",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 80,
+   "def": 50,
+   "spa": 50,
+   "spd": 50,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "熊宝宝",
+     "form": null
+    }
+   ],
+   [
+    {
+     "name": "圈圈熊",
+     "evotype": "Level",
+     "level": "30"
+    }
+   ],
+   [
+    {
+     "name": "月月熊",
+     "evotype": "Item",
+     "extra": "泥炭块+满月"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "8.8"
+ },
+ {
+  "dex_hisui": 113,
+  "dex_national": 217,
+  "name_zh": "圈圈熊",
+  "name_en": "Ursaring",
+  "name_ja": "リングマ",
+  "species": "冬眠",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 90,
+   "atk": 130,
+   "def": 75,
+   "spa": 75,
+   "spd": 75,
+   "spe": 55
+  },
+  "evolves": [
+   [
+    {
+     "name": "熊宝宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "圈圈熊",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "月月熊",
+     "form": null,
+     "evotype": "Item",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.8",
+  "weight": "125.8"
+ },
+ {
+  "dex_hisui": 114,
+  "dex_national": 901,
+  "name_zh": "月月熊",
+  "name_en": "Ursaluna",
+  "name_ja": "ガチグマ",
+  "species": "泥炭",
+  "types": [
+   "地面",
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 130,
+   "atk": 140,
+   "def": 105,
+   "spa": 45,
+   "spd": 80,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "熊宝宝",
+     "form": null
+    }
+   ],
+   [
+    {
+     "name": "圈圈熊",
+     "evotype": "Level",
+     "level": "30"
+    }
+   ],
+   [
+    {
+     "name": "月月熊",
+     "evotype": "Item",
+     "extra": "泥炭块+满月"
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[红莲湿地]]",
+    "sub": "[[大大大量出现]]",
+    "note": ""
+   }
+  ],
+  "height": "2.4",
+  "weight": "290.0"
+ },
+ {
+  "dex_hisui": 115,
+  "dex_national": 704,
+  "name_zh": "黏黏宝",
+  "name_en": "Goomy",
+  "name_ja": "ヌメラ",
+  "species": "软体生物",
+  "types": [
+   "龙"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 50,
+   "def": 35,
+   "spa": 55,
+   "spd": 75,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "黏黏宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "黏美儿",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "40",
+     "extra": "在[[洗翠地区]]"
+    }
+   ],
+   [
+    {
+     "name": "黏美龙",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "50",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "2.8"
+ },
+ {
+  "dex_hisui": 116,
+  "dex_national": 705,
+  "name_zh": "黏美儿",
+  "name_en": "Sliggoo",
+  "name_ja": "ヌメイル",
+  "species": "软体生物",
+  "types": [
+   "钢",
+   "龙"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 68,
+   "atk": 75,
+   "def": 53,
+   "spa": 83,
+   "spd": 113,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "黏黏宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "黏美儿",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "40",
+     "extra": "在[[洗翠地区]]"
+    }
+   ],
+   [
+    {
+     "name": "黏美龙",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "50",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "17.5"
+ },
+ {
+  "dex_hisui": 117,
+  "dex_national": 706,
+  "name_zh": "黏美龙",
+  "name_en": "Goodra",
+  "name_ja": "ヌメルゴン",
+  "species": "龙",
+  "types": [
+   "钢",
+   "龙"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 90,
+   "atk": 100,
+   "def": 70,
+   "spa": 110,
+   "spd": 150,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "黏黏宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "黏美儿",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "40",
+     "extra": "在[[洗翠地区]]"
+    }
+   ],
+   [
+    {
+     "name": "黏美龙",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "50",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.0",
+  "weight": "150.5"
+ },
+ {
+  "dex_hisui": 118,
+  "dex_national": 95,
+  "name_zh": "大岩蛇",
+  "name_en": "Onix",
+  "name_ja": "イワーク",
+  "species": "岩蛇",
+  "types": [
+   "岩石",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 35,
+   "atk": 45,
+   "def": 160,
+   "spa": 30,
+   "spd": 45,
+   "spe": 70
+  },
+  "evolves": [
+   [
+    {
+     "name": "大岩蛇",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大钢蛇",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "8.8",
+  "weight": "210.0"
+ },
+ {
+  "dex_hisui": 119,
+  "dex_national": 208,
+  "name_zh": "大钢蛇",
+  "name_en": "Steelix",
+  "name_ja": "ハガネール",
+  "species": "铁蛇",
+  "types": [
+   "钢",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 85,
+   "def": 200,
+   "spa": 55,
+   "spd": 65,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "大岩蛇",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大钢蛇",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "9.2",
+  "weight": "400.0"
+ },
+ {
+  "dex_hisui": 120,
+  "dex_national": 111,
+  "name_zh": "独角犀牛",
+  "name_en": "Rhyhorn",
+  "name_ja": "サイホーン",
+  "species": "尖尖",
+  "types": [
+   "地面",
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 85,
+   "def": 95,
+   "spa": 30,
+   "spd": 30,
+   "spe": 25
+  },
+  "evolves": [
+   [
+    {
+     "name": "独角犀牛",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "钻角犀兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "42",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "超甲狂犀",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "115.0"
+ },
+ {
+  "dex_hisui": 121,
+  "dex_national": 112,
+  "name_zh": "钻角犀兽",
+  "name_en": "Rhydon",
+  "name_ja": "サイドン",
+  "species": "钻锥",
+  "types": [
+   "地面",
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 105,
+   "atk": 130,
+   "def": 120,
+   "spa": 45,
+   "spd": 45,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "独角犀牛",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "钻角犀兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "42",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "超甲狂犀",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.9",
+  "weight": "120.0"
+ },
+ {
+  "dex_hisui": 122,
+  "dex_national": 464,
+  "name_zh": "超甲狂犀",
+  "name_en": "Rhyperior",
+  "name_ja": "ドサイドン",
+  "species": "钻锥",
+  "types": [
+   "地面",
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 115,
+   "atk": 140,
+   "def": 130,
+   "spa": 55,
+   "spd": 55,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "独角犀牛",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "钻角犀兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "42",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "超甲狂犀",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.4",
+  "weight": "282.8"
+ },
+ {
+  "dex_hisui": 123,
+  "dex_national": 438,
+  "name_zh": "盆才怪",
+  "name_en": "Bonsly",
+  "name_ja": "ウソハチ",
+  "species": "盆栽",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 80,
+   "def": 95,
+   "spa": 10,
+   "spd": 45,
+   "spe": 10
+  },
+  "evolves": [
+   [
+    {
+     "name": "盆才怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "树才怪",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "15.0"
+ },
+ {
+  "dex_hisui": 124,
+  "dex_national": 185,
+  "name_zh": "树才怪",
+  "name_en": "Sudowoodo",
+  "name_ja": "ウソッキー",
+  "species": "模仿",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 100,
+   "def": 115,
+   "spa": 30,
+   "spd": 65,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "盆才怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "树才怪",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "38.0"
+ },
+ {
+  "dex_hisui": 125,
+  "dex_national": 108,
+  "name_zh": "大舌头",
+  "name_en": "Lickitung",
+  "name_ja": "ベロリンガ",
+  "species": "舔舔",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 90,
+   "atk": 55,
+   "def": 75,
+   "spa": 60,
+   "spd": 75,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "大舌头",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大舌舔",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "65.5"
+ },
+ {
+  "dex_hisui": 126,
+  "dex_national": 463,
+  "name_zh": "大舌舔",
+  "name_en": "Lickilicky",
+  "name_ja": "ベロベルト",
+  "species": "舔舔",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 110,
+   "atk": 85,
+   "def": 95,
+   "spa": 80,
+   "spd": 95,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "大舌头",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大舌舔",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.7",
+  "weight": "140.0"
+ },
+ {
+  "dex_hisui": 127,
+  "dex_national": 175,
+  "name_zh": "波克比",
+  "name_en": "Togepi",
+  "name_ja": "トゲピー",
+  "species": "针球",
+  "types": [
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 35,
+   "atk": 20,
+   "def": 65,
+   "spa": 40,
+   "spd": 65,
+   "spe": 20
+  },
+  "evolves": [
+   [
+    {
+     "name": "波克比",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "波克基古",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "波克基斯",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "1.5"
+ },
+ {
+  "dex_hisui": 128,
+  "dex_national": 176,
+  "name_zh": "波克基古",
+  "name_en": "Togetic",
+  "name_ja": "トゲチック",
+  "species": "幸福",
+  "types": [
+   "妖精",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 40,
+   "def": 85,
+   "spa": 80,
+   "spd": 105,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "波克比",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "波克基古",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "波克基斯",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "3.2"
+ },
+ {
+  "dex_hisui": 129,
+  "dex_national": 468,
+  "name_zh": "波克基斯",
+  "name_en": "Togekiss",
+  "name_ja": "トゲキッス",
+  "species": "祝福",
+  "types": [
+   "妖精",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 85,
+   "atk": 50,
+   "def": 95,
+   "spa": 120,
+   "spd": 115,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "波克比",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "波克基古",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "波克基斯",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "38.0"
+ },
+ {
+  "dex_hisui": 130,
+  "dex_national": 387,
+  "name_zh": "草苗龟",
+  "name_en": "Turtwig",
+  "name_ja": "ナエトル",
+  "species": "嫩叶",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 68,
+   "def": 64,
+   "spa": 45,
+   "spd": 55,
+   "spe": 31
+  },
+  "evolves": [
+   [
+    {
+     "name": "草苗龟",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "树林龟",
+     "form": null,
+     "evotype": "Level",
+     "level": "18",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "土台龟",
+     "form": null,
+     "evotype": "Level",
+     "level": "32",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "10.2"
+ },
+ {
+  "dex_hisui": 131,
+  "dex_national": 388,
+  "name_zh": "树林龟",
+  "name_en": "Grotle",
+  "name_ja": "ハヤシガメ",
+  "species": "树丛",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 89,
+   "def": 85,
+   "spa": 55,
+   "spd": 65,
+   "spe": 36
+  },
+  "evolves": [
+   [
+    {
+     "name": "草苗龟",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "树林龟",
+     "form": null,
+     "evotype": "Level",
+     "level": "18",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "土台龟",
+     "form": null,
+     "evotype": "Level",
+     "level": "32",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "97.0"
+ },
+ {
+  "dex_hisui": 132,
+  "dex_national": 389,
+  "name_zh": "土台龟",
+  "name_en": "Torterra",
+  "name_ja": "ドダイトス",
+  "species": "大陆",
+  "types": [
+   "草",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 95,
+   "atk": 109,
+   "def": 105,
+   "spa": 75,
+   "spd": 85,
+   "spe": 56
+  },
+  "evolves": [
+   [
+    {
+     "name": "草苗龟",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "树林龟",
+     "form": null,
+     "evotype": "Level",
+     "level": "18",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "土台龟",
+     "form": null,
+     "evotype": "Level",
+     "level": "32",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.2",
+  "weight": "310.0"
+ },
+ {
+  "dex_hisui": 133,
+  "dex_national": 137,
+  "name_zh": "多边兽",
+  "name_en": "Porygon",
+  "name_ja": "ポリゴン",
+  "species": "虚拟",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 60,
+   "def": 70,
+   "spa": 85,
+   "spd": 75,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "多边兽",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "36.5"
+ },
+ {
+  "dex_hisui": 134,
+  "dex_national": 233,
+  "name_zh": "多边兽Ⅱ",
+  "name_en": "Porygon2",
+  "name_ja": "ポリゴン２",
+  "species": "虚拟",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 85,
+   "atk": 80,
+   "def": 90,
+   "spa": 105,
+   "spd": 95,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "多边兽",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "32.5"
+ },
+ {
+  "dex_hisui": 135,
+  "dex_national": 474,
+  "name_zh": "多边兽Ｚ",
+  "name_en": "Porygon-Z",
+  "name_ja": "ポリゴンＺ",
+  "species": "虚拟",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 85,
+   "atk": 80,
+   "def": 70,
+   "spa": 135,
+   "spd": 75,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "多边兽",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "34.0"
+ },
+ {
+  "dex_hisui": 136,
+  "dex_national": 92,
+  "name_zh": "鬼斯",
+  "name_en": "Gastly",
+  "name_ja": "ゴース",
+  "species": "气体状",
+  "types": [
+   "幽灵",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 30,
+   "atk": 35,
+   "def": 30,
+   "spa": 100,
+   "spd": 35,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "鬼斯",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鬼斯通",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "耿鬼",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "0.1"
+ },
+ {
+  "dex_hisui": 137,
+  "dex_national": 93,
+  "name_zh": "鬼斯通",
+  "name_en": "Haunter",
+  "name_ja": "ゴースト",
+  "species": "气体状",
+  "types": [
+   "幽灵",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 50,
+   "def": 45,
+   "spa": 115,
+   "spd": 55,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "鬼斯",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鬼斯通",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "耿鬼",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "0.1"
+ },
+ {
+  "dex_hisui": 138,
+  "dex_national": 94,
+  "name_zh": "耿鬼",
+  "name_en": "Gengar",
+  "name_ja": "ゲンガー",
+  "species": "影子",
+  "types": [
+   "幽灵",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 65,
+   "def": 60,
+   "spa": 130,
+   "spd": 75,
+   "spe": 110
+  },
+  "evolves": [
+   [
+    {
+     "name": "鬼斯",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鬼斯通",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "耿鬼",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "40.5"
+ },
+ {
+  "dex_hisui": 139,
+  "dex_national": 442,
+  "name_zh": "花岩怪",
+  "name_en": "Spiritomb",
+  "name_ja": "ミカルゲ",
+  "species": "封印",
+  "types": [
+   "幽灵",
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 92,
+   "def": 108,
+   "spa": 92,
+   "spd": 108,
+   "spe": 35
+  },
+  "evolves": [
+   [
+    {
+     "name": "花岩怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "108.0"
+ },
+ {
+  "dex_hisui": 140,
+  "dex_national": 198,
+  "name_zh": "黑暗鸦",
+  "name_en": "Murkrow",
+  "name_ja": "ヤミカラス",
+  "species": "黑暗",
+  "types": [
+   "恶",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 85,
+   "def": 42,
+   "spa": 85,
+   "spd": 42,
+   "spe": 91
+  },
+  "evolves": [
+   [
+    {
+     "name": "黑暗鸦",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "乌鸦头头",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "2.1"
+ },
+ {
+  "dex_hisui": 141,
+  "dex_national": 430,
+  "name_zh": "乌鸦头头",
+  "name_en": "Honchkrow",
+  "name_ja": "ドンカラス",
+  "species": "大头目",
+  "types": [
+   "恶",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 100,
+   "atk": 125,
+   "def": 52,
+   "spa": 105,
+   "spd": 52,
+   "spe": 71
+  },
+  "evolves": [
+   [
+    {
+     "name": "黑暗鸦",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "乌鸦头头",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "27.3"
+ },
+ {
+  "dex_hisui": 142,
+  "dex_national": 201,
+  "name_zh": "未知图腾",
+  "name_en": "Unown",
+  "name_ja": "アンノーン",
+  "species": "象征",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 48,
+   "atk": 72,
+   "def": 48,
+   "spa": 72,
+   "spd": 48,
+   "spe": 48
+  },
+  "evolves": [
+   [
+    {
+     "name": "未知图腾",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "5.0"
+ },
+ {
+  "dex_hisui": 143,
+  "dex_national": 363,
+  "name_zh": "海豹球",
+  "name_en": "Spheal",
+  "name_ja": "タマザラシ",
+  "species": "拍手",
+  "types": [
+   "冰",
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 40,
+   "def": 50,
+   "spa": 55,
+   "spd": 50,
+   "spe": 25
+  },
+  "evolves": [
+   [
+    {
+     "name": "海豹球",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "海魔狮",
+     "form": null,
+     "evotype": "Level",
+     "level": "32",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "帝牙海狮",
+     "form": null,
+     "evotype": "Level",
+     "level": "44",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "39.5"
+ },
+ {
+  "dex_hisui": 144,
+  "dex_national": 364,
+  "name_zh": "海魔狮",
+  "name_en": "Sealeo",
+  "name_ja": "トドグラー",
+  "species": "滚球",
+  "types": [
+   "冰",
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 90,
+   "atk": 60,
+   "def": 70,
+   "spa": 75,
+   "spd": 70,
+   "spe": 45
+  },
+  "evolves": [
+   [
+    {
+     "name": "海豹球",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "海魔狮",
+     "form": null,
+     "evotype": "Level",
+     "level": "32",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "帝牙海狮",
+     "form": null,
+     "evotype": "Level",
+     "level": "44",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "87.6"
+ },
+ {
+  "dex_hisui": 145,
+  "dex_national": 365,
+  "name_zh": "帝牙海狮",
+  "name_en": "Walrein",
+  "name_ja": "トドゼルガ",
+  "species": "破冰",
+  "types": [
+   "冰",
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 110,
+   "atk": 80,
+   "def": 90,
+   "spa": 95,
+   "spd": 90,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "海豹球",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "海魔狮",
+     "form": null,
+     "evotype": "Level",
+     "level": "32",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "帝牙海狮",
+     "form": null,
+     "evotype": "Level",
+     "level": "44",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.4",
+  "weight": "150.6"
+ },
+ {
+  "dex_hisui": 146,
+  "dex_national": 223,
+  "name_zh": "铁炮鱼",
+  "name_en": "Remoraid",
+  "name_ja": "テッポウオ",
+  "species": "喷射",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 35,
+   "atk": 65,
+   "def": 35,
+   "spa": 65,
+   "spd": 35,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "铁炮鱼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "章鱼桶",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "12.0"
+ },
+ {
+  "dex_hisui": 147,
+  "dex_national": 224,
+  "name_zh": "章鱼桶",
+  "name_en": "Octillery",
+  "name_ja": "オクタン",
+  "species": "喷射",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 105,
+   "def": 75,
+   "spa": 105,
+   "spd": 75,
+   "spe": 45
+  },
+  "evolves": [
+   [
+    {
+     "name": "铁炮鱼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "章鱼桶",
+     "form": null,
+     "evotype": "Level",
+     "level": "25",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "28.5"
+ },
+ {
+  "dex_hisui": 148,
+  "dex_national": 451,
+  "name_zh": "钳尾蝎",
+  "name_en": "Skorupi",
+  "name_ja": "スコルピ",
+  "species": "蝎子",
+  "types": [
+   "毒",
+   "虫"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 50,
+   "def": 90,
+   "spa": 30,
+   "spd": 55,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "钳尾蝎",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "龙王蝎",
+     "form": null,
+     "evotype": "Level",
+     "level": "40",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "12.0"
+ },
+ {
+  "dex_hisui": 149,
+  "dex_national": 452,
+  "name_zh": "龙王蝎",
+  "name_en": "Drapion",
+  "name_ja": "ドラピオン",
+  "species": "蝎怪",
+  "types": [
+   "毒",
+   "恶"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 90,
+   "def": 110,
+   "spa": 60,
+   "spd": 75,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "钳尾蝎",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "龙王蝎",
+     "form": null,
+     "evotype": "Level",
+     "level": "40",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "61.5"
+ },
+ {
+  "dex_hisui": 150,
+  "dex_national": 58,
+  "name_zh": "卡蒂狗",
+  "name_en": "Growlithe",
+  "name_ja": "ガーディ",
+  "species": "小狗",
+  "types": [
+   "火",
+   "岩石"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 60,
+   "atk": 75,
+   "def": 45,
+   "spa": 65,
+   "spd": 50,
+   "spe": 55
+  },
+  "evolves": [
+   [
+    {
+     "name": "卡蒂狗",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "风速狗",
+     "form": "洗翠",
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "19.0"
+ },
+ {
+  "dex_hisui": 151,
+  "dex_national": 59,
+  "name_zh": "风速狗",
+  "name_en": "Arcanine",
+  "name_ja": "ウインディ",
+  "species": "传说",
+  "types": [
+   "火",
+   "岩石"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 95,
+   "atk": 115,
+   "def": 80,
+   "spa": 95,
+   "spd": 80,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "卡蒂狗",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "风速狗",
+     "form": "洗翠",
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.9",
+  "weight": "155.0"
+ },
+ {
+  "dex_hisui": 152,
+  "dex_national": 431,
+  "name_zh": "魅力喵",
+  "name_en": "Glameow",
+  "name_ja": "ニャルマー",
+  "species": "装乖",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 49,
+   "atk": 55,
+   "def": 42,
+   "spa": 42,
+   "spd": 37,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "魅力喵",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "东施喵",
+     "form": null,
+     "evotype": "Level",
+     "level": "38",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "3.9"
+ },
+ {
+  "dex_hisui": 153,
+  "dex_national": 432,
+  "name_zh": "东施喵",
+  "name_en": "Purugly",
+  "name_ja": "ブニャット",
+  "species": "虎斑猫",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 71,
+   "atk": 82,
+   "def": 64,
+   "spa": 64,
+   "spd": 59,
+   "spe": 112
+  },
+  "evolves": [
+   [
+    {
+     "name": "魅力喵",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "东施喵",
+     "form": null,
+     "evotype": "Level",
+     "level": "38",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "43.8"
+ },
+ {
+  "dex_hisui": 154,
+  "dex_national": 66,
+  "name_zh": "腕力",
+  "name_en": "Machop",
+  "name_ja": "ワンリキー",
+  "species": "怪力",
+  "types": [
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 80,
+   "def": 50,
+   "spa": 35,
+   "spd": 35,
+   "spe": 35
+  },
+  "evolves": [
+   [
+    {
+     "name": "腕力",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "豪力",
+     "form": null,
+     "evotype": "Level",
+     "level": "28",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "怪力",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "19.5"
+ },
+ {
+  "dex_hisui": 155,
+  "dex_national": 67,
+  "name_zh": "豪力",
+  "name_en": "Machoke",
+  "name_ja": "ゴーリキー",
+  "species": "怪力",
+  "types": [
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 100,
+   "def": 70,
+   "spa": 50,
+   "spd": 60,
+   "spe": 45
+  },
+  "evolves": [
+   [
+    {
+     "name": "腕力",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "豪力",
+     "form": null,
+     "evotype": "Level",
+     "level": "28",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "怪力",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "70.5"
+ },
+ {
+  "dex_hisui": 156,
+  "dex_national": 68,
+  "name_zh": "怪力",
+  "name_en": "Machamp",
+  "name_ja": "カイリキー",
+  "species": "怪力",
+  "types": [
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 90,
+   "atk": 130,
+   "def": 80,
+   "spa": 65,
+   "spd": 85,
+   "spe": 55
+  },
+  "evolves": [
+   [
+    {
+     "name": "腕力",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "豪力",
+     "form": null,
+     "evotype": "Level",
+     "level": "28",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "怪力",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "130.0"
+ },
+ {
+  "dex_hisui": 157,
+  "dex_national": 441,
+  "name_zh": "聒噪鸟",
+  "name_en": "Chatot",
+  "name_ja": "ペラップ",
+  "species": "音符",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 76,
+   "atk": 65,
+   "def": 45,
+   "spa": 92,
+   "spd": 42,
+   "spe": 91
+  },
+  "evolves": [
+   [
+    {
+     "name": "聒噪鸟",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "1.9"
+ },
+ {
+  "dex_hisui": 158,
+  "dex_national": 355,
+  "name_zh": "夜巡灵",
+  "name_en": "Duskull",
+  "name_ja": "ヨマワル",
+  "species": "渡魂",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 20,
+   "atk": 40,
+   "def": 90,
+   "spa": 30,
+   "spd": 90,
+   "spe": 25
+  },
+  "evolves": [
+   [
+    {
+     "name": "夜巡灵",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "彷徨夜灵",
+     "form": null,
+     "evotype": "Level",
+     "level": "37",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "黑夜魔灵",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "15.0"
+ },
+ {
+  "dex_hisui": 159,
+  "dex_national": 356,
+  "name_zh": "彷徨夜灵",
+  "name_en": "Dusclops",
+  "name_ja": "サマヨール",
+  "species": "招手",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 70,
+   "def": 130,
+   "spa": 60,
+   "spd": 130,
+   "spe": 25
+  },
+  "evolves": [
+   [
+    {
+     "name": "夜巡灵",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "彷徨夜灵",
+     "form": null,
+     "evotype": "Level",
+     "level": "37",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "黑夜魔灵",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "30.6"
+ },
+ {
+  "dex_hisui": 160,
+  "dex_national": 477,
+  "name_zh": "黑夜魔灵",
+  "name_en": "Dusknoir",
+  "name_ja": "ヨノワール",
+  "species": "抓握",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 100,
+   "def": 135,
+   "spa": 65,
+   "spd": 135,
+   "spe": 45
+  },
+  "evolves": [
+   [
+    {
+     "name": "夜巡灵",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "彷徨夜灵",
+     "form": null,
+     "evotype": "Level",
+     "level": "37",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "黑夜魔灵",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.2",
+  "weight": "106.6"
+ },
+ {
+  "dex_hisui": 161,
+  "dex_national": 393,
+  "name_zh": "波加曼",
+  "name_en": "Piplup",
+  "name_ja": "ポッチャマ",
+  "species": "企鹅",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 53,
+   "atk": 51,
+   "def": 53,
+   "spa": 61,
+   "spd": 56,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "波加曼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "波皇子",
+     "form": null,
+     "evotype": "Level",
+     "level": "16",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "帝王拿波",
+     "form": null,
+     "evotype": "Level",
+     "level": "36",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "5.2"
+ },
+ {
+  "dex_hisui": 162,
+  "dex_national": 394,
+  "name_zh": "波皇子",
+  "name_en": "Prinplup",
+  "name_ja": "ポッタイシ",
+  "species": "企鹅",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 64,
+   "atk": 66,
+   "def": 68,
+   "spa": 81,
+   "spd": 76,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "波加曼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "波皇子",
+     "form": null,
+     "evotype": "Level",
+     "level": "16",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "帝王拿波",
+     "form": null,
+     "evotype": "Level",
+     "level": "36",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.8",
+  "weight": "23.0"
+ },
+ {
+  "dex_hisui": 163,
+  "dex_national": 395,
+  "name_zh": "帝王拿波",
+  "name_en": "Empoleon",
+  "name_ja": "エンペルト",
+  "species": "皇帝",
+  "types": [
+   "水",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 84,
+   "atk": 86,
+   "def": 88,
+   "spa": 111,
+   "spd": 101,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "波加曼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "波皇子",
+     "form": null,
+     "evotype": "Level",
+     "level": "16",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "帝王拿波",
+     "form": null,
+     "evotype": "Level",
+     "level": "36",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.7",
+  "weight": "84.5"
+ },
+ {
+  "dex_hisui": 164,
+  "dex_national": 458,
+  "name_zh": "小球飞鱼",
+  "name_en": "Mantyke",
+  "name_ja": "タマンタ",
+  "species": "风筝",
+  "types": [
+   "水",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 20,
+   "def": 50,
+   "spa": 60,
+   "spd": 120,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "小球飞鱼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "巨翅飞鱼",
+     "form": null,
+     "evotype": "Pokémon",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "65.0"
+ },
+ {
+  "dex_hisui": 165,
+  "dex_national": 226,
+  "name_zh": "巨翅飞鱼",
+  "name_en": "Mantine",
+  "name_ja": "マンタイン",
+  "species": "风筝",
+  "types": [
+   "水",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 85,
+   "atk": 40,
+   "def": 70,
+   "spa": 80,
+   "spd": 140,
+   "spe": 70
+  },
+  "evolves": [
+   [
+    {
+     "name": "小球飞鱼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "巨翅飞鱼",
+     "form": null,
+     "evotype": "Pokémon",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.1",
+  "weight": "220.0"
+ },
+ {
+  "dex_hisui": 166,
+  "dex_national": 550,
+  "name_zh": "野蛮鲈鱼",
+  "name_en": "Basculin",
+  "name_ja": "バスラオ",
+  "species": "粗暴",
+  "types": [
+   "水"
+  ],
+  "form": "白条纹的样子",
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 92,
+   "def": 65,
+   "spa": 80,
+   "spd": 55,
+   "spe": 98
+  },
+  "evolves": [
+   [
+    {
+     "name": "野蛮鲈鱼",
+     "form": "白条纹的样子"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "18.0"
+ },
+ {
+  "dex_hisui": 167,
+  "dex_national": 902,
+  "name_zh": "幽尾玄鱼",
+  "name_en": "Basculegion",
+  "name_ja": "イダイトウ",
+  "species": "大鱼",
+  "types": [
+   "水",
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 120,
+   "atk": 112,
+   "def": 65,
+   "spa": 80,
+   "spd": 75,
+   "spe": 78
+  },
+  "evolves": [
+   [
+    {
+     "name": "野蛮鲈鱼",
+     "form": "白条纹的样子",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "3.0",
+  "weight": "110.0"
+ },
+ {
+  "dex_hisui": 168,
+  "dex_national": 37,
+  "name_zh": "六尾",
+  "name_en": "Vulpix",
+  "name_ja": "ロコン",
+  "species": "狐狸",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 38,
+   "atk": 41,
+   "def": 40,
+   "spa": 50,
+   "spd": 65,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "六尾",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "九尾",
+     "form": null,
+     "evotype": "Item",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "9.9"
+ },
+ {
+  "dex_hisui": 168,
+  "dex_national": 37,
+  "name_zh": "六尾",
+  "name_en": "Vulpix",
+  "name_ja": "ロコン",
+  "species": "狐狸",
+  "types": [
+   "冰"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 38,
+   "atk": 41,
+   "def": 40,
+   "spa": 50,
+   "spd": 65,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "六尾",
+     "form": "洗翠"
+    }
+   ],
+   [
+    {
+     "name": "九尾",
+     "form": "洗翠",
+     "evotype": "Item",
+     "extra": "冰之石"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "9.9"
+ },
+ {
+  "dex_hisui": 169,
+  "dex_national": 38,
+  "name_zh": "九尾",
+  "name_en": "Ninetales",
+  "name_ja": "キュウコン",
+  "species": "狐狸",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 73,
+   "atk": 76,
+   "def": 75,
+   "spa": 81,
+   "spd": 100,
+   "spe": 100
+  },
+  "evolves": [
+   [
+    {
+     "name": "六尾",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "九尾",
+     "form": null,
+     "evotype": "Item",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "19.9"
+ },
+ {
+  "dex_hisui": 169,
+  "dex_national": 38,
+  "name_zh": "九尾",
+  "name_en": "Ninetales",
+  "name_ja": "キュウコン",
+  "species": "狐狸",
+  "types": [
+   "冰",
+   "妖精"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 73,
+   "atk": 67,
+   "def": 75,
+   "spa": 81,
+   "spd": 100,
+   "spe": 109
+  },
+  "evolves": [
+   [
+    {
+     "name": "六尾",
+     "form": "洗翠"
+    }
+   ],
+   [
+    {
+     "name": "九尾",
+     "form": "洗翠",
+     "evotype": "Item",
+     "extra": "冰之石"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "19.9"
+ },
+ {
+  "dex_hisui": 170,
+  "dex_national": 72,
+  "name_zh": "玛瑙水母",
+  "name_en": "Tentacool",
+  "name_ja": "メノクラゲ",
+  "species": "水母",
+  "types": [
+   "水",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 40,
+   "def": 35,
+   "spa": 50,
+   "spd": 100,
+   "spe": 70
+  },
+  "evolves": [
+   [
+    {
+     "name": "玛瑙水母",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "毒刺水母",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "45.5"
+ },
+ {
+  "dex_hisui": 171,
+  "dex_national": 73,
+  "name_zh": "毒刺水母",
+  "name_en": "Tentacruel",
+  "name_ja": "ドククラゲ",
+  "species": "水母",
+  "types": [
+   "水",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 70,
+   "def": 65,
+   "spa": 80,
+   "spd": 120,
+   "spe": 100
+  },
+  "evolves": [
+   [
+    {
+     "name": "玛瑙水母",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "毒刺水母",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "55.0"
+ },
+ {
+  "dex_hisui": 172,
+  "dex_national": 456,
+  "name_zh": "荧光鱼",
+  "name_en": "Finneon",
+  "name_ja": "ケイコウオ",
+  "species": "飞翅鱼",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 49,
+   "atk": 49,
+   "def": 56,
+   "spa": 49,
+   "spd": 61,
+   "spe": 66
+  },
+  "evolves": [
+   [
+    {
+     "name": "荧光鱼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "霓虹鱼",
+     "form": null,
+     "evotype": "Level",
+     "level": "31",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "7.0"
+ },
+ {
+  "dex_hisui": 173,
+  "dex_national": 457,
+  "name_zh": "霓虹鱼",
+  "name_en": "Lumineon",
+  "name_ja": "ネオラント",
+  "species": "霓虹",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 69,
+   "atk": 69,
+   "def": 76,
+   "spa": 69,
+   "spd": 86,
+   "spe": 91
+  },
+  "evolves": [
+   [
+    {
+     "name": "荧光鱼",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "霓虹鱼",
+     "form": null,
+     "evotype": "Level",
+     "level": "31",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "24.0"
+ },
+ {
+  "dex_hisui": 174,
+  "dex_national": 240,
+  "name_zh": "鸭嘴宝宝",
+  "name_en": "Magby",
+  "name_ja": "ブビィ",
+  "species": "火种",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 75,
+   "def": 37,
+   "spa": 70,
+   "spd": 55,
+   "spe": 83
+  },
+  "evolves": [
+   [
+    {
+     "name": "鸭嘴宝宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鸭嘴火兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鸭嘴炎兽",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "21.4"
+ },
+ {
+  "dex_hisui": 175,
+  "dex_national": 126,
+  "name_zh": "鸭嘴火兽",
+  "name_en": "Magmar",
+  "name_ja": "ブーバー",
+  "species": "吐火",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 95,
+   "def": 57,
+   "spa": 100,
+   "spd": 85,
+   "spe": 93
+  },
+  "evolves": [
+   [
+    {
+     "name": "鸭嘴宝宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鸭嘴火兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鸭嘴炎兽",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "44.5"
+ },
+ {
+  "dex_hisui": 176,
+  "dex_national": 467,
+  "name_zh": "鸭嘴炎兽",
+  "name_en": "Magmortar",
+  "name_ja": "ブーバーン",
+  "species": "爆炎",
+  "types": [
+   "火"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 95,
+   "def": 67,
+   "spa": 125,
+   "spd": 95,
+   "spe": 83
+  },
+  "evolves": [
+   [
+    {
+     "name": "鸭嘴宝宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鸭嘴火兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "鸭嘴炎兽",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "68.0"
+ },
+ {
+  "dex_hisui": 177,
+  "dex_national": 81,
+  "name_zh": "小磁怪",
+  "name_en": "Magnemite",
+  "name_ja": "コイル",
+  "species": "磁铁",
+  "types": [
+   "电",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 25,
+   "atk": 35,
+   "def": 70,
+   "spa": 95,
+   "spd": 55,
+   "spe": 45
+  },
+  "evolves": [
+   [
+    {
+     "name": "小磁怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "三合一磁怪",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "自爆磁怪",
+     "form": null,
+     "evotype": "Location",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "6.0"
+ },
+ {
+  "dex_hisui": 178,
+  "dex_national": 82,
+  "name_zh": "三合一磁怪",
+  "name_en": "Magneton",
+  "name_ja": "レアコイル",
+  "species": "磁铁",
+  "types": [
+   "电",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 60,
+   "def": 95,
+   "spa": 120,
+   "spd": 70,
+   "spe": 70
+  },
+  "evolves": [
+   [
+    {
+     "name": "小磁怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "三合一磁怪",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "自爆磁怪",
+     "form": null,
+     "evotype": "Location",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "60.0"
+ },
+ {
+  "dex_hisui": 179,
+  "dex_national": 462,
+  "name_zh": "自爆磁怪",
+  "name_en": "Magnezone",
+  "name_ja": "ジバコイル",
+  "species": "磁场",
+  "types": [
+   "电",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 70,
+   "def": 115,
+   "spa": 130,
+   "spd": 90,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "小磁怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "三合一磁怪",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "自爆磁怪",
+     "form": null,
+     "evotype": "Location",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "180.0"
+ },
+ {
+  "dex_hisui": 180,
+  "dex_national": 436,
+  "name_zh": "铜镜怪",
+  "name_en": "Bronzor",
+  "name_ja": "ドーミラー",
+  "species": "青铜",
+  "types": [
+   "钢",
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 57,
+   "atk": 24,
+   "def": 86,
+   "spa": 24,
+   "spd": 86,
+   "spe": 23
+  },
+  "evolves": [
+   [
+    {
+     "name": "铜镜怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "青铜钟",
+     "form": null,
+     "evotype": "Level",
+     "level": "33",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "60.5"
+ },
+ {
+  "dex_hisui": 181,
+  "dex_national": 437,
+  "name_zh": "青铜钟",
+  "name_en": "Bronzong",
+  "name_ja": "ドータクン",
+  "species": "铜钟",
+  "types": [
+   "钢",
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 67,
+   "atk": 89,
+   "def": 116,
+   "spa": 79,
+   "spd": 116,
+   "spe": 33
+  },
+  "evolves": [
+   [
+    {
+     "name": "铜镜怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "青铜钟",
+     "form": null,
+     "evotype": "Level",
+     "level": "33",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "187.0"
+ },
+ {
+  "dex_hisui": 182,
+  "dex_national": 239,
+  "name_zh": "电击怪",
+  "name_en": "Elekid",
+  "name_ja": "エレキッド",
+  "species": "电气",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 63,
+   "def": 37,
+   "spa": 65,
+   "spd": 55,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "电击怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "电击兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "电击魔兽",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "23.5"
+ },
+ {
+  "dex_hisui": 183,
+  "dex_national": 125,
+  "name_zh": "电击兽",
+  "name_en": "Electabuzz",
+  "name_ja": "エレブー",
+  "species": "电击",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 83,
+   "def": 57,
+   "spa": 95,
+   "spd": 85,
+   "spe": 105
+  },
+  "evolves": [
+   [
+    {
+     "name": "电击怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "电击兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "电击魔兽",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "30.0"
+ },
+ {
+  "dex_hisui": 184,
+  "dex_national": 466,
+  "name_zh": "电击魔兽",
+  "name_en": "Electivire",
+  "name_ja": "エレキブル",
+  "species": "雷电",
+  "types": [
+   "电"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 123,
+   "def": 67,
+   "spa": 95,
+   "spd": 85,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "电击怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "电击兽",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "电击魔兽",
+     "form": null,
+     "evotype": "Trade",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.8",
+  "weight": "138.6"
+ },
+ {
+  "dex_hisui": 185,
+  "dex_national": 207,
+  "name_zh": "天蝎",
+  "name_en": "Gligar",
+  "name_ja": "グライガー",
+  "species": "飞蝎",
+  "types": [
+   "地面",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 65,
+   "atk": 75,
+   "def": 105,
+   "spa": 35,
+   "spd": 65,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "天蝎",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "天蝎王",
+     "form": null,
+     "evotype": "Held",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "64.8"
+ },
+ {
+  "dex_hisui": 186,
+  "dex_national": 472,
+  "name_zh": "天蝎王",
+  "name_en": "Gliscor",
+  "name_ja": "グライオン",
+  "species": "牙蝎",
+  "types": [
+   "地面",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 95,
+   "def": 125,
+   "spa": 45,
+   "spd": 75,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "天蝎",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "天蝎王",
+     "form": null,
+     "evotype": "Held",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.0",
+  "weight": "42.5"
+ },
+ {
+  "dex_hisui": 187,
+  "dex_national": 443,
+  "name_zh": "圆陆鲨",
+  "name_en": "Gible",
+  "name_ja": "フカマル",
+  "species": "陆鲨",
+  "types": [
+   "龙",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 58,
+   "atk": 70,
+   "def": 45,
+   "spa": 40,
+   "spd": 45,
+   "spe": 42
+  },
+  "evolves": [
+   [
+    {
+     "name": "圆陆鲨",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "尖牙陆鲨",
+     "form": null,
+     "evotype": "Level",
+     "level": "24",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "烈咬陆鲨",
+     "form": null,
+     "evotype": "Level",
+     "level": "48",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "20.5"
+ },
+ {
+  "dex_hisui": 188,
+  "dex_national": 444,
+  "name_zh": "尖牙陆鲨",
+  "name_en": "Gabite",
+  "name_ja": "ガバイト",
+  "species": "洞穴",
+  "types": [
+   "龙",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 68,
+   "atk": 90,
+   "def": 65,
+   "spa": 50,
+   "spd": 55,
+   "spe": 82
+  },
+  "evolves": [
+   [
+    {
+     "name": "圆陆鲨",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "尖牙陆鲨",
+     "form": null,
+     "evotype": "Level",
+     "level": "24",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "烈咬陆鲨",
+     "form": null,
+     "evotype": "Level",
+     "level": "48",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.4",
+  "weight": "56.0"
+ },
+ {
+  "dex_hisui": 189,
+  "dex_national": 445,
+  "name_zh": "烈咬陆鲨",
+  "name_en": "Garchomp",
+  "name_ja": "ガブリアス",
+  "species": "音速",
+  "types": [
+   "龙",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 108,
+   "atk": 130,
+   "def": 95,
+   "spa": 80,
+   "spd": 85,
+   "spe": 102
+  },
+  "evolves": [
+   [
+    {
+     "name": "圆陆鲨",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "尖牙陆鲨",
+     "form": null,
+     "evotype": "Level",
+     "level": "24",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "烈咬陆鲨",
+     "form": null,
+     "evotype": "Level",
+     "level": "48",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.9",
+  "weight": "95.0"
+ },
+ {
+  "dex_hisui": 190,
+  "dex_national": 299,
+  "name_zh": "朝北鼻",
+  "name_en": "Nosepass",
+  "name_ja": "ノズパス",
+  "species": "罗盘",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 30,
+   "atk": 45,
+   "def": 135,
+   "spa": 45,
+   "spd": 90,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "朝北鼻",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大朝北鼻",
+     "form": null,
+     "evotype": "Location",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "97.0"
+ },
+ {
+  "dex_hisui": 191,
+  "dex_national": 476,
+  "name_zh": "大朝北鼻",
+  "name_en": "Probopass",
+  "name_ja": "ダイノーズ",
+  "species": "罗盘",
+  "types": [
+   "岩石",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 55,
+   "def": 145,
+   "spa": 75,
+   "spd": 150,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "朝北鼻",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大朝北鼻",
+     "form": null,
+     "evotype": "Location",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.4",
+  "weight": "340.0"
+ },
+ {
+  "dex_hisui": 192,
+  "dex_national": 100,
+  "name_zh": "霹雳电球",
+  "name_en": "Voltorb",
+  "name_ja": "ビリリダマ",
+  "species": "球",
+  "types": [
+   "电",
+   "草"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 40,
+   "atk": 30,
+   "def": 50,
+   "spa": 55,
+   "spd": 55,
+   "spe": 100
+  },
+  "evolves": [
+   [
+    {
+     "name": "霹雳电球",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "顽皮雷弹",
+     "form": "洗翠",
+     "evotype": "Item",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "10.4"
+ },
+ {
+  "dex_hisui": 193,
+  "dex_national": 101,
+  "name_zh": "顽皮雷弹",
+  "name_en": "Electrode",
+  "name_ja": "マルマイン",
+  "species": "球",
+  "types": [
+   "电",
+   "草"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 60,
+   "atk": 50,
+   "def": 70,
+   "spa": 80,
+   "spd": 80,
+   "spe": 150
+  },
+  "evolves": [
+   [
+    {
+     "name": "霹雳电球",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "顽皮雷弹",
+     "form": "洗翠",
+     "evotype": "Item",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "66.6"
+ },
+ {
+  "dex_hisui": 194,
+  "dex_national": 479,
+  "name_zh": "洛托姆",
+  "name_en": "Rotom",
+  "name_ja": "ロトム",
+  "species": "等离子",
+  "types": [
+   "电",
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 50,
+   "def": 77,
+   "spa": 95,
+   "spd": 77,
+   "spe": 91
+  },
+  "evolves": [
+   [
+    {
+     "name": "洛托姆",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "0.3"
+ },
+ {
+  "dex_hisui": 195,
+  "dex_national": 433,
+  "name_zh": "铃铛响",
+  "name_en": "Chingling",
+  "name_ja": "リーシャン",
+  "species": "铃铛",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 45,
+   "atk": 30,
+   "def": 50,
+   "spa": 65,
+   "spd": 50,
+   "spe": 45
+  },
+  "evolves": [
+   [
+    {
+     "name": "铃铛响",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "风铃铃",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.2",
+  "weight": "0.6"
+ },
+ {
+  "dex_hisui": 196,
+  "dex_national": 358,
+  "name_zh": "风铃铃",
+  "name_en": "Chimecho",
+  "name_ja": "チリーン",
+  "species": "风铃",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 50,
+   "def": 80,
+   "spa": 95,
+   "spd": 90,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "铃铛响",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "风铃铃",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "1.0"
+ },
+ {
+  "dex_hisui": 197,
+  "dex_national": 200,
+  "name_zh": "梦妖",
+  "name_en": "Misdreavus",
+  "name_ja": "ムウマ",
+  "species": "夜啼",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 60,
+   "def": 60,
+   "spa": 85,
+   "spd": 85,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "梦妖",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "梦妖魔",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "1.0"
+ },
+ {
+  "dex_hisui": 198,
+  "dex_national": 429,
+  "name_zh": "梦妖魔",
+  "name_en": "Mismagius",
+  "name_ja": "ムウマージ",
+  "species": "魔法",
+  "types": [
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 60,
+   "def": 60,
+   "spa": 105,
+   "spd": 105,
+   "spe": 105
+  },
+  "evolves": [
+   [
+    {
+     "name": "梦妖",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "梦妖魔",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "4.4"
+ },
+ {
+  "dex_hisui": 199,
+  "dex_national": 173,
+  "name_zh": "皮宝宝",
+  "name_en": "Cleffa",
+  "name_ja": "ピィ",
+  "species": "星形",
+  "types": [
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 25,
+   "def": 28,
+   "spa": 45,
+   "spd": 55,
+   "spe": 15
+  },
+  "evolves": [
+   [
+    {
+     "name": "皮宝宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "皮皮",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "皮可西",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "3.0"
+ },
+ {
+  "dex_hisui": 200,
+  "dex_national": 35,
+  "name_zh": "皮皮",
+  "name_en": "Clefairy",
+  "name_ja": "ピッピ",
+  "species": "妖精",
+  "types": [
+   "妖精",
+   "0"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 45,
+   "def": 48,
+   "spa": 60,
+   "spd": 65,
+   "spe": 35
+  },
+  "evolves": [
+   [
+    {
+     "name": "皮宝宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "皮皮",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "皮可西",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.6",
+  "weight": "7.5"
+ },
+ {
+  "dex_hisui": 201,
+  "dex_national": 36,
+  "name_zh": "皮可西",
+  "name_en": "Clefable",
+  "name_ja": "ピクシー",
+  "species": "妖精",
+  "types": [
+   "妖精"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 95,
+   "atk": 70,
+   "def": 73,
+   "spa": 95,
+   "spd": 90,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "皮宝宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "皮皮",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "皮可西",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "40.0"
+ },
+ {
+  "dex_hisui": 202,
+  "dex_national": 215,
+  "name_zh": "狃拉",
+  "name_en": "Sneasel",
+  "name_ja": "ニューラ",
+  "species": "钩爪",
+  "types": [
+   "格斗",
+   "毒"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 55,
+   "atk": 95,
+   "def": 55,
+   "spa": 35,
+   "spd": 75,
+   "spe": 115
+  },
+  "evolves": [
+   [
+    {
+     "name": "狃拉",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大狃拉",
+     "form": null,
+     "evotype": "Held",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "28.0"
+ },
+ {
+  "dex_hisui": 202,
+  "dex_national": 215,
+  "name_zh": "狃拉",
+  "name_en": "Sneasel",
+  "name_ja": "ニューラ",
+  "species": "钩爪",
+  "types": [
+   "恶",
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 95,
+   "def": 55,
+   "spa": 35,
+   "spd": 75,
+   "spe": 115
+  },
+  "evolves": [
+   [
+    {
+     "name": "狃拉",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "玛狃拉",
+     "form": null,
+     "evotype": "Held",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "28.0"
+ },
+ {
+  "dex_hisui": 203,
+  "dex_national": 903,
+  "name_zh": "大狃拉",
+  "name_en": "Sneasler",
+  "name_ja": "オオニューラ",
+  "species": "攀崖",
+  "types": [
+   "格斗",
+   "毒"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 130,
+   "def": 60,
+   "spa": 40,
+   "spd": 80,
+   "spe": 120
+  },
+  "evolves": [
+   [
+    {
+     "name": "狃拉",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "大狃拉",
+     "form": null,
+     "evotype": "Held",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[天冠山麓]]",
+    "sub": "[[大大大量出现]]",
+    "note": ""
+   }
+  ],
+  "height": "1.3",
+  "weight": "43.0"
+ },
+ {
+  "dex_hisui": 204,
+  "dex_national": 461,
+  "name_zh": "玛狃拉",
+  "name_en": "Weavile",
+  "name_ja": "マニューラ",
+  "species": "钩爪",
+  "types": [
+   "恶",
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 120,
+   "def": 65,
+   "spa": 45,
+   "spd": 85,
+   "spe": 125
+  },
+  "evolves": [
+   [
+    {
+     "name": "狃拉",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "玛狃拉",
+     "form": null,
+     "evotype": "Held",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "34.0"
+ },
+ {
+  "dex_hisui": 205,
+  "dex_national": 361,
+  "name_zh": "雪童子",
+  "name_en": "Snorunt",
+  "name_ja": "ユキワラシ",
+  "species": "雪笠",
+  "types": [
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 50,
+   "def": 50,
+   "spa": 50,
+   "spd": 50,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "雪童子",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "冰鬼护",
+     "form": null,
+     "evotype": "Level",
+     "level": "42",
+     "extra": null
+    },
+    {
+     "name": "雪妖女",
+     "form": null,
+     "evotype": "Stone",
+     "level": "42",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "16.8"
+ },
+ {
+  "dex_hisui": 206,
+  "dex_national": 362,
+  "name_zh": "冰鬼护",
+  "name_en": "Glalie",
+  "name_ja": "オニゴーリ",
+  "species": "脸面",
+  "types": [
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 80,
+   "def": 80,
+   "spa": 80,
+   "spd": 80,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "雪童子",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "冰鬼护",
+     "form": null,
+     "evotype": "Level",
+     "level": "42",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "256.5"
+ },
+ {
+  "dex_hisui": 207,
+  "dex_national": 478,
+  "name_zh": "雪妖女",
+  "name_en": "Froslass",
+  "name_ja": "ユキメノコ",
+  "species": "雪国",
+  "types": [
+   "冰",
+   "幽灵"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 80,
+   "def": 70,
+   "spa": 80,
+   "spd": 70,
+   "spe": 110
+  },
+  "evolves": [
+   [
+    {
+     "name": "雪童子",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "雪妖女",
+     "form": null,
+     "evotype": "Stone",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "26.6"
+ },
+ {
+  "dex_hisui": 208,
+  "dex_national": 408,
+  "name_zh": "头盖龙",
+  "name_en": "Cranidos",
+  "name_ja": "ズガイドス",
+  "species": "头锤",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 67,
+   "atk": 125,
+   "def": 40,
+   "spa": 30,
+   "spd": 30,
+   "spe": 58
+  },
+  "evolves": [
+   [
+    {
+     "name": "头盖龙",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "战槌龙",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.9",
+  "weight": "31.5"
+ },
+ {
+  "dex_hisui": 209,
+  "dex_national": 409,
+  "name_zh": "战槌龙",
+  "name_en": "Rampardos",
+  "name_ja": "ラムパルド",
+  "species": "头锤",
+  "types": [
+   "岩石"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 97,
+   "atk": 165,
+   "def": 60,
+   "spa": 65,
+   "spd": 50,
+   "spe": 58
+  },
+  "evolves": [
+   [
+    {
+     "name": "头盖龙",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "战槌龙",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "102.5"
+ },
+ {
+  "dex_hisui": 210,
+  "dex_national": 410,
+  "name_zh": "盾甲龙",
+  "name_en": "Shieldon",
+  "name_ja": "タテトプス",
+  "species": "护盾",
+  "types": [
+   "岩石",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 30,
+   "atk": 42,
+   "def": 118,
+   "spa": 42,
+   "spd": 88,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "盾甲龙",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "护城龙",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "57.0"
+ },
+ {
+  "dex_hisui": 211,
+  "dex_national": 411,
+  "name_zh": "护城龙",
+  "name_en": "Bastiodon",
+  "name_ja": "トリデプス",
+  "species": "护盾",
+  "types": [
+   "岩石",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 52,
+   "def": 168,
+   "spa": 47,
+   "spd": 138,
+   "spe": 30
+  },
+  "evolves": [
+   [
+    {
+     "name": "盾甲龙",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "护城龙",
+     "form": null,
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.3",
+  "weight": "149.5"
+ },
+ {
+  "dex_hisui": 212,
+  "dex_national": 220,
+  "name_zh": "小山猪",
+  "name_en": "Swinub",
+  "name_ja": "ウリムー",
+  "species": "小猪",
+  "types": [
+   "冰",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 50,
+   "atk": 50,
+   "def": 40,
+   "spa": 30,
+   "spd": 30,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "小山猪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "长毛猪",
+     "form": null,
+     "evotype": "Level",
+     "level": "33",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "象牙猪",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "6.5"
+ },
+ {
+  "dex_hisui": 213,
+  "dex_national": 221,
+  "name_zh": "长毛猪",
+  "name_en": "Piloswine",
+  "name_ja": "イノムー",
+  "species": "野猪",
+  "types": [
+   "冰",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 100,
+   "atk": 100,
+   "def": 80,
+   "spa": 60,
+   "spd": 60,
+   "spe": 50
+  },
+  "evolves": [
+   [
+    {
+     "name": "小山猪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "长毛猪",
+     "form": null,
+     "evotype": "Level",
+     "level": "33",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "象牙猪",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.1",
+  "weight": "55.8"
+ },
+ {
+  "dex_hisui": 214,
+  "dex_national": 473,
+  "name_zh": "象牙猪",
+  "name_en": "Mamoswine",
+  "name_ja": "マンムー",
+  "species": "双牙",
+  "types": [
+   "冰",
+   "地面"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 110,
+   "atk": 130,
+   "def": 80,
+   "spa": 70,
+   "spd": 60,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "小山猪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "长毛猪",
+     "form": null,
+     "evotype": "Level",
+     "level": "33",
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "象牙猪",
+     "form": null,
+     "evotype": "Move",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.5",
+  "weight": "291.0"
+ },
+ {
+  "dex_hisui": 215,
+  "dex_national": 712,
+  "name_zh": "冰宝",
+  "name_en": "Bergmite",
+  "name_ja": "カチコール",
+  "species": "冰块",
+  "types": [
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 55,
+   "atk": 69,
+   "def": 85,
+   "spa": 32,
+   "spd": 35,
+   "spe": 28
+  },
+  "evolves": [
+   [
+    {
+     "name": "冰宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "冰岩怪",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "37",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "99.5"
+ },
+ {
+  "dex_hisui": 216,
+  "dex_national": 713,
+  "name_zh": "冰岩怪",
+  "name_en": "Avalugg",
+  "name_ja": "クレベース",
+  "species": "冰山",
+  "types": [
+   "冰",
+   "岩石"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 95,
+   "atk": 127,
+   "def": 184,
+   "spa": 34,
+   "spd": 36,
+   "spe": 38
+  },
+  "evolves": [
+   [
+    {
+     "name": "冰宝",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "冰岩怪",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "37",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.0",
+  "weight": "505.0"
+ },
+ {
+  "dex_hisui": 217,
+  "dex_national": 459,
+  "name_zh": "雪笠怪",
+  "name_en": "Snover",
+  "name_ja": "ユキカブリ",
+  "species": "树冰",
+  "types": [
+   "草",
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 60,
+   "atk": 62,
+   "def": 50,
+   "spa": 62,
+   "spd": 60,
+   "spe": 40
+  },
+  "evolves": [
+   [
+    {
+     "name": "雪笠怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "暴雪王",
+     "form": null,
+     "evotype": "Level",
+     "level": "40",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.0",
+  "weight": "50.5"
+ },
+ {
+  "dex_hisui": 218,
+  "dex_national": 460,
+  "name_zh": "暴雪王",
+  "name_en": "Abomasnow",
+  "name_ja": "ユキノオー",
+  "species": "树冰",
+  "types": [
+   "草",
+   "冰"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 90,
+   "atk": 92,
+   "def": 75,
+   "spa": 92,
+   "spd": 85,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "雪笠怪",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "暴雪王",
+     "form": null,
+     "evotype": "Level",
+     "level": "40",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "2.2",
+  "weight": "135.5"
+ },
+ {
+  "dex_hisui": 219,
+  "dex_national": 570,
+  "name_zh": "索罗亚",
+  "name_en": "Zorua",
+  "name_ja": "ゾロア",
+  "species": "恶狐",
+  "types": [
+   "一般",
+   "幽灵"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 35,
+   "atk": 60,
+   "def": 40,
+   "spa": 85,
+   "spd": 40,
+   "spe": 70
+  },
+  "evolves": [
+   [
+    {
+     "name": "索罗亚",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "索罗亚克",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "12.5"
+ },
+ {
+  "dex_hisui": 220,
+  "dex_national": 571,
+  "name_zh": "索罗亚克",
+  "name_en": "Zoroark",
+  "name_ja": "ゾロアーク",
+  "species": "妖狐",
+  "types": [
+   "一般",
+   "幽灵"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 55,
+   "atk": 100,
+   "def": 60,
+   "spa": 125,
+   "spd": 60,
+   "spe": 110
+  },
+  "evolves": [
+   [
+    {
+     "name": "索罗亚",
+     "form": "洗翠",
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "索罗亚克",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "30",
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.6",
+  "weight": "81.1"
+ },
+ {
+  "dex_hisui": 221,
+  "dex_national": 627,
+  "name_zh": "毛头小鹰",
+  "name_en": "Rufflet",
+  "name_ja": "ワシボン",
+  "species": "雏鹰",
+  "types": [
+   "一般",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 83,
+   "def": 50,
+   "spa": 37,
+   "spd": 50,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "毛头小鹰",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "勇士雄鹰",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "54",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.5",
+  "weight": "10.5"
+ },
+ {
+  "dex_hisui": 222,
+  "dex_national": 628,
+  "name_zh": "勇士雄鹰",
+  "name_en": "Braviary",
+  "name_ja": "ウォーグル",
+  "species": "勇猛",
+  "types": [
+   "超能力",
+   "飞行"
+  ],
+  "form": "洗翠的样子",
+  "hisui_form": true,
+  "base_stats": {
+   "hp": 110,
+   "atk": 83,
+   "def": 70,
+   "spa": 112,
+   "spd": 70,
+   "spe": 65
+  },
+  "evolves": [
+   [
+    {
+     "name": "毛头小鹰",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "勇士雄鹰",
+     "form": "洗翠",
+     "evotype": "Level",
+     "level": "54",
+     "extra": "在[[洗翠地区]]"
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "41.0"
+ },
+ {
+  "dex_hisui": 223,
+  "dex_national": 447,
+  "name_zh": "利欧路",
+  "name_en": "Riolu",
+  "name_ja": "リオル",
+  "species": "波纹",
+  "types": [
+   "格斗"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 40,
+   "atk": 70,
+   "def": 40,
+   "spa": 35,
+   "spd": 40,
+   "spe": 60
+  },
+  "evolves": [
+   [
+    {
+     "name": "利欧路",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "路卡利欧",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.7",
+  "weight": "20.2"
+ },
+ {
+  "dex_hisui": 224,
+  "dex_national": 448,
+  "name_zh": "路卡利欧",
+  "name_en": "Lucario",
+  "name_ja": "ルカリオ",
+  "species": "波导",
+  "types": [
+   "格斗",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 110,
+   "def": 70,
+   "spa": 115,
+   "spd": 70,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "利欧路",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "路卡利欧",
+     "form": null,
+     "evotype": "Happiness",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.2",
+  "weight": "54.0"
+ },
+ {
+  "dex_hisui": 225,
+  "dex_national": 480,
+  "name_zh": "由克希",
+  "name_en": "Uxie",
+  "name_ja": "ユクシー",
+  "species": "知识",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 75,
+   "def": 130,
+   "spa": 75,
+   "spd": 130,
+   "spe": 95
+  },
+  "evolves": [
+   [
+    {
+     "name": "由克希",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "0.3"
+ },
+ {
+  "dex_hisui": 226,
+  "dex_national": 481,
+  "name_zh": "艾姆利多",
+  "name_en": "Mesprit",
+  "name_ja": "エムリット",
+  "species": "感情",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 105,
+   "def": 105,
+   "spa": 105,
+   "spd": 105,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "艾姆利多",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "0.3"
+ },
+ {
+  "dex_hisui": 227,
+  "dex_national": 482,
+  "name_zh": "亚克诺姆",
+  "name_en": "Azelf",
+  "name_ja": "アグノム",
+  "species": "意志",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 75,
+   "atk": 125,
+   "def": 70,
+   "spa": 125,
+   "spd": 70,
+   "spe": 115
+  },
+  "evolves": [
+   [
+    {
+     "name": "亚克诺姆",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "0.3"
+ },
+ {
+  "dex_hisui": 228,
+  "dex_national": 485,
+  "name_zh": "席多蓝恩",
+  "name_en": "Heatran",
+  "name_ja": "ヒードラン",
+  "species": "火山口",
+  "types": [
+   "火",
+   "钢"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 91,
+   "atk": 90,
+   "def": 106,
+   "spa": 130,
+   "spd": 106,
+   "spe": 77
+  },
+  "evolves": [
+   [
+    {
+     "name": "席多蓝恩",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.7",
+  "weight": "430.0"
+ },
+ {
+  "dex_hisui": 229,
+  "dex_national": 486,
+  "name_zh": "雷吉奇卡斯",
+  "name_en": "Regigigas",
+  "name_ja": "レジギガス",
+  "species": "巨大",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 110,
+   "atk": 160,
+   "def": 110,
+   "spa": 80,
+   "spd": 110,
+   "spe": 100
+  },
+  "evolves": [
+   [
+    {
+     "name": "雷吉奇卡斯",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "3.7",
+  "weight": "420.0"
+ },
+ {
+  "dex_hisui": 230,
+  "dex_national": 488,
+  "name_zh": "克雷色利亚",
+  "name_en": "Cresselia",
+  "name_ja": "クレセリア",
+  "species": "新月",
+  "types": [
+   "超能力"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 120,
+   "atk": 70,
+   "def": 110,
+   "spa": 75,
+   "spd": 120,
+   "spe": 85
+  },
+  "evolves": [
+   [
+    {
+     "name": "克雷色利亚",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "1.5",
+  "weight": "85.6"
+ },
+ {
+  "dex_hisui": 231,
+  "dex_national": 641,
+  "name_zh": "龙卷云",
+  "name_en": "Tornadus",
+  "name_ja": "トルネロス",
+  "species": "旋风",
+  "types": [
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 79,
+   "atk": 115,
+   "def": 70,
+   "spa": 125,
+   "spd": 80,
+   "spe": 111
+  },
+  "evolves": [
+   [
+    {
+     "name": "龙卷云",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[酷寒荒地]]{{Sup/W",
+    "sub": "冰}}",
+    "note": "{{tt"
+   }
+  ],
+  "height": "1.5",
+  "weight": "63.0"
+ },
+ {
+  "dex_hisui": 232,
+  "dex_national": 642,
+  "name_zh": "雷电云",
+  "name_en": "Thundurus",
+  "name_ja": "ボルトロス",
+  "species": "雷击",
+  "types": [
+   "电",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 79,
+   "atk": 115,
+   "def": 70,
+   "spa": 125,
+   "spd": 80,
+   "spe": 111
+  },
+  "evolves": [
+   [
+    {
+     "name": "雷电云",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[群青海岸]]{{Sup/W",
+    "sub": "雷}}",
+    "note": "{{tt"
+   }
+  ],
+  "height": "1.5",
+  "weight": "61.0"
+ },
+ {
+  "dex_hisui": 233,
+  "dex_national": 645,
+  "name_zh": "土地云",
+  "name_en": "Landorus",
+  "name_ja": "ランドロス",
+  "species": "丰饶",
+  "types": [
+   "地面",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 89,
+   "atk": 125,
+   "def": 90,
+   "spa": 115,
+   "spd": 80,
+   "spe": 101
+  },
+  "evolves": [
+   [
+    {
+     "name": "土地云",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[玫瑰岛]]",
+    "sub": "{{tt",
+    "note": "定点"
+   }
+  ],
+  "height": "1.5",
+  "weight": "68.0"
+ },
+ {
+  "dex_hisui": 234,
+  "dex_national": 905,
+  "name_zh": "眷恋云",
+  "name_en": "Enamorus",
+  "name_ja": "ラブトロス",
+  "species": "爱憎",
+  "types": [
+   "妖精",
+   "飞行"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 74,
+   "atk": 115,
+   "def": 70,
+   "spa": 135,
+   "spd": 80,
+   "spe": 106
+  },
+  "evolves": [
+   [
+    {
+     "name": "眷恋云",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[绯红沼]]",
+    "sub": "定点{{tt",
+    "note": "*"
+   }
+  ],
+  "height": "1.6",
+  "weight": "48.0"
+ },
+ {
+  "dex_hisui": 235,
+  "dex_national": 483,
+  "name_zh": "帝牙卢卡",
+  "name_en": "Dialga",
+  "name_ja": "ディアルガ",
+  "species": "时间",
+  "types": [
+   "钢",
+   "龙"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 100,
+   "atk": 120,
+   "def": 120,
+   "spa": 150,
+   "spd": 100,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "帝牙卢卡",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "5.4",
+  "weight": "683.0"
+ },
+ {
+  "dex_hisui": 236,
+  "dex_national": 484,
+  "name_zh": "帕路奇亚",
+  "name_en": "Palkia",
+  "name_ja": "パルキア",
+  "species": "空间",
+  "types": [
+   "水",
+   "龙"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 90,
+   "atk": 120,
+   "def": 100,
+   "spa": 150,
+   "spd": 120,
+   "spe": 100
+  },
+  "evolves": [
+   [
+    {
+     "name": "帕路奇亚",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "4.2",
+  "weight": "336.0"
+ },
+ {
+  "dex_hisui": 237,
+  "dex_national": 487,
+  "name_zh": "骑拉帝纳",
+  "name_en": "Giratina",
+  "name_ja": "ギラティナ",
+  "species": "反抗",
+  "types": [
+   "幽灵",
+   "龙"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 150,
+   "atk": 100,
+   "def": 120,
+   "spa": 100,
+   "spd": 120,
+   "spe": 90
+  },
+  "evolves": [
+   [
+    {
+     "name": "骑拉帝纳",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "4.5",
+  "weight": "750.0"
+ },
+ {
+  "dex_hisui": 238,
+  "dex_national": 493,
+  "name_zh": "阿尔宙斯",
+  "name_en": "Arceus",
+  "name_ja": "アルセウス",
+  "species": "创造",
+  "types": [
+   "一般"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 120,
+   "atk": 120,
+   "def": 120,
+   "spa": 120,
+   "spd": 120,
+   "spe": 120
+  },
+  "evolves": [
+   [
+    {
+     "name": "阿尔宙斯",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "3.2",
+  "weight": "320.0"
+ },
+ {
+  "dex_hisui": 239,
+  "dex_national": 489,
+  "name_zh": "霏欧纳",
+  "name_en": "Phione",
+  "name_ja": "フィオネ",
+  "species": "海洋",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 80,
+   "atk": 80,
+   "def": 80,
+   "spa": 80,
+   "spd": 80,
+   "spe": 80
+  },
+  "evolves": [
+   [
+    {
+     "name": "霏欧纳",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "玛纳霏",
+     "form": null,
+     "evotype": "None",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.4",
+  "weight": "3.1"
+ },
+ {
+  "dex_hisui": 240,
+  "dex_national": 490,
+  "name_zh": "玛纳霏",
+  "name_en": "Manaphy",
+  "name_ja": "マナフィ",
+  "species": "回游",
+  "types": [
+   "水"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 100,
+   "atk": 100,
+   "def": 100,
+   "spa": 100,
+   "spd": 100,
+   "spe": 100
+  },
+  "evolves": [
+   [
+    {
+     "name": "霏欧纳",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ],
+   [
+    {
+     "name": "玛纳霏",
+     "form": null,
+     "evotype": "None",
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.3",
+  "weight": "1.4"
+ },
+ {
+  "dex_hisui": 241,
+  "dex_national": 492,
+  "name_zh": "谢米",
+  "name_en": "Shaymin",
+  "name_ja": "シェイミ",
+  "species": "感谢",
+  "types": [
+   "草"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 100,
+   "atk": 100,
+   "def": 100,
+   "spa": 100,
+   "spd": 100,
+   "spe": 100
+  },
+  "evolves": [
+   [
+    {
+     "name": "谢米",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [],
+  "height": "0.2",
+  "weight": "2.1"
+ },
+ {
+  "dex_hisui": 242,
+  "dex_national": 491,
+  "name_zh": "达克莱伊",
+  "name_en": "Darkrai",
+  "name_ja": "ダークライ",
+  "species": "暗黑",
+  "types": [
+   "恶",
+   "0"
+  ],
+  "form": null,
+  "hisui_form": false,
+  "base_stats": {
+   "hp": 70,
+   "atk": 90,
+   "def": 90,
+   "spa": 135,
+   "spd": 90,
+   "spe": 125
+  },
+  "evolves": [
+   [
+    {
+     "name": "达克莱伊",
+     "form": null,
+     "evotype": null,
+     "level": null,
+     "extra": null
+    }
+   ]
+  ],
+  "la_obtain": [
+   {
+    "category": "1",
+    "place": "[[攀崖崖]]",
+    "sub": "{{tt",
+    "note": "定点"
+   }
+  ],
+  "height": "1.5",
+  "weight": "50.5"
+ }
+]

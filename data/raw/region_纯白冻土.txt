@@ -1,0 +1,75 @@
+{{地點信息框
+|image=纯白冻土 LA.png
+|type=雪地
+|name=純白凍土
+|enname=Alabaster Icelands
+|jpname=純白の凍土
+|slogan=
+|mapdesc=
+|map=none.png
+|location=[[天冠山麓]]北部
+|generation={{gen|8}}
+|game={{Gameabbrevzh/8|LA}}
+|region=洗翠
+|connect=no
+}}
+{{N|純白凍土||純白の凍土|Alabaster Icelands}}是[[洗翠地區]]的區域。
+
+==地理==
+[[洗翠地区]]的三大湖泊之一的[[睿智湖]]在这片区域。此区域位于神奥地区北方，地形为盆地，气候寒冷，偶尔会有{{s|下雪|暴风雪}}。[[珍珠队]]的基地[[珍珠聚落]]建立在睿智湖东面。
+
+==地點==
+*[[雪原基地]]
+*[[冰山基地]]
+*[[雪濤谷]]
+*[[冰隙小徑]]
+*[[酷寒荒地]]
+*[[冰岩塊]]
+*[[珍珠聚落]]
+*[[冰河階坡]]
+*[[心形岩山]]
+*[[冰鬼瀑]]
+*[[冬蟄洞穴]]
+*[[雪崩坡]]
+*[[冰柱窟]]
+*[[冰山地道]]
+*[[觀雪溫泉]]
+*[[凍石]]
+*[[秘密小洞]]
+*[[睿智湖]]
+*[[睿智湖洞窟]]
+*[[雪峰神殿]]
+*[[往戰場的路]]
+*[[冰山戰場]]
+
+==宝可梦==
+{{main|纯白冻土/宝可梦}}
+
+===[[由克希]]===
+{{Quest/LA|M21}}中，由克希會出現在[[睿智湖洞窟]]。
+
+===[[龙卷云]]===
+{{Quest/LA|Q94}}中，龙卷云會在{{w|暴风雪}}天氣發生時出現在[[酷寒荒地]]。龙卷云在附近一帶四處逃跑，並施放數個{{m|枯叶风暴}}干擾主角，被命中了有機率會因陷入麻痺而一段時間無法移動。主角要繞過風暴並投出任何道具或宝可梦打破其身上的風牆。打破風牆三次後才可以進行捕捉或對戰。
+
+==名字==
+{{名字/header|origin=yes|雪地}} 
+{{名字/entry|ja|じゅんぱくのとうど|kanji=純白の凍土|roma=Junpaku no Tōdo |來自「{{JP|{{langtt|ja|純白|junpaku}}|じゅんぱく}}」（純白）。}}
+{{名字/entry|zh_nin|純白凍土|simp=纯白冻土|來自「純白」。}}
+{{名字/entry|en|Alabaster Icelands|來自 ''alabaster''（{{wp|雪花石膏}}）。}}
+{{名字/entry|fr|Terres Immaculées|來自 ''immaculé''（無瑕的）。}}
+{{名字/entry|de|Weißes Frostland|來自 ''Weiß''（白）。}}
+{{名字/entry|it|Ghiacci Candidio|來自 ''candidi''（純白的）。}}
+{{名字/entry|es|Tundra Alba|來自拉丁文 ''albus''（白）。}}
+{{名字/entry|ko|순백 동토|roma=Sunbaek Dongto|來自「{{langtt|ko|순백〈純白〉|sunbaek}}」（純白）。|end=yes}}
+
+{{洗翠}}
+
+[[Category:洗翠地区地点]]
+[[Category:傳說阿爾宙斯地點]]
+
+[[de:Weißes Frostland]]
+[[en:Alabaster Icelands]]
+[[es:Tundra Alba]]
+[[fr:Terres Immaculées]]
+[[it:Ghiacci Candidi]]
+[[ja:純白の凍土]]

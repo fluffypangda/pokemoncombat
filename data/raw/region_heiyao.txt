@@ -1,0 +1,86 @@
+{{地點信息框
+|image=黑曜原野 LA.png
+|type=陸地
+|name=黑曜原野
+|enname=Obsidian Fieldlands
+|jpname=黒曜の原野
+|slogan=
+|mapdesc=
+|map=none.png
+|location=[[祝慶村]]東邊
+|generation={{gen|8}}
+|game={{Gameabbrevzh/8|LA}}
+|region=洗翠
+|connect=no
+}}
+{{N|黑曜原野||黒曜の原野|Obsidian Fieldlands}}是[[洗翠地區]]的區域。
+
+==地理==
+[[洗翠地区]]的三大湖泊之一的[[心齐湖]]在这片区域。
+
+==地點==
+*[[原野基地]]
+*[[高崗基地]]
+*[[大志坡]]
+*[[蹄鐵草原]]
+*[[角鹿山道]]
+*[[角鹿高崗]]
+*[[黑曜瀑布]]
+*[[黑金隧道]]
+*[[森林膳房]]
+*[[深幽森林]]
+*[[險林]]
+*[[真砂平原]]
+*[[河口堤堰]]
+*[[荒園開墾地]]
+*[[玫瑰島]]
+*[[馳風道]]
+*[[削石橋]]
+*[[心齊湖]]
+*[[心齊湖洞窟]]
+*[[苔岩]]
+*[[巨木戰場]]
+
+==宝可梦==
+{{main|黑曜原野/宝可梦}}
+
+===[[艾姆利多]]===
+{{Quest/LA|M21}}中，艾姆利多會出現在[[心齐湖洞窟]]。
+
+===[[土地云]]===
+{{Quest/LA|Q94}}中，土地云會出現在[[玫瑰岛]]。土地云会在附近一帶的陆地上四處逃跑，並施放數個{{m|热沙风暴}}干擾主角，被命中了有機率會因陷入麻痺而一段時間無法移動。主角要繞過風暴並投出任何道具或宝可梦打破其身上的風牆。打破風牆三次後才可以進行捕捉或對戰。
+
+===[[谢米]]===
+主机拥有{{game|SWSH}}的存档并且异变<sup>{{Quest/LA|M17}}</sup>结束后，与[[原野基地]]的[[金刚队]]队员[[希儿]]对话，解锁{{Quest/LA|Q92}}。谢米会出现在[[荒园开垦地]]的花丛中。
+
+==地图==
+[[File:黑曜原野_LA.png|thumb|left|黑曜原野]]
+
+==名字==
+{{名字/header|origin=yes|陸地}} 
+{{名字/entry|ja|こくようのげんや|kanji=黒曜の原野|roma=Kokuyō no Genya|來自 {{langtt|ja|黒曜石|kokuyōseki}}（{{wp|黑曜岩|黑曜石}}）。}}
+{{名字/entry|zh_nin|黑曜原野|來自「黑曜岩」。}}
+{{名字/entry|en|Obsidian Fieldlands|來自 ''obsidian''（黑曜石）。}}
+{{名字/entry|fr|Plaines Obsidiennes|來自 ''obsidienne''（黑曜石）。}}
+{{名字/entry|de|Obsidian-Grasland|來自 ''Obsidian''（黑曜石）。}}
+{{名字/entry|it|Landa Ossidiana|來自 ''ossidiana''（黑曜石）。}}
+{{名字/entry|es|Pradera Obsidiana|來自 ''obsidiana''（黑曜石）。}}
+{{名字/entry|ko|흑요 들판|roma=Heugyo Deulpan|來自 {{langtt|ko|흑요석|heugyoseok}}（黑曜石）。}}
+{{名字/entry|ru|Обсидиановые поля|roma=Obsidianovyye Polya|來自英文名的直譯。|end=yes}}
+
+==细节==
+* 黑曜原野白天的背景音乐部分参考了[[双叶镇]]的背景音乐；清晨的背景音乐部分参考了神奥{{rt|203|神奥}}的背景音乐。
+
+{{洗翠}}
+
+{{小作品|地点}}
+
+[[Category:洗翠地区地点]]
+[[Category:傳說阿爾宙斯地點]]
+
+[[de:Obsidian-Grasland]]
+[[en:Obsidian Fieldlands]]
+[[es:Pradera Obsidiana]]
+[[fr:Plaines Obsidiennes]]
+[[it:Landa Ossidiana]]
+[[ja:黒曜の原野]]

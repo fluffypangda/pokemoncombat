@@ -1,0 +1,100 @@
+{
+ "probe_time": "2026-09-12 20:32:30",
+ "items": {
+  "10229": {
+   "name": "wishiwashi-school",
+   "pokemon_name": "wishiwashi-school",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10127.png"
+  },
+  "10230": {
+   "name": "lurantis-totem",
+   "pokemon_name": "lurantis-totem",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10128.png"
+  },
+  "10231": {
+   "name": "salazzle-totem",
+   "pokemon_name": "salazzle-totem",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10129.png"
+  },
+  "10232": {
+   "name": "silvally-fighting",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-fighting.png"
+  },
+  "10233": {
+   "name": "silvally-flying",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-flying.png"
+  },
+  "10234": {
+   "name": "silvally-poison",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-poison.png"
+  },
+  "10235": {
+   "name": "silvally-ground",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-ground.png"
+  },
+  "10236": {
+   "name": "silvally-rock",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-rock.png"
+  },
+  "10237": {
+   "name": "silvally-bug",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-bug.png"
+  },
+  "10238": {
+   "name": "silvally-ghost",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-ghost.png"
+  },
+  "10239": {
+   "name": "silvally-steel",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-steel.png"
+  },
+  "10240": {
+   "name": "silvally-fire",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-fire.png"
+  },
+  "10241": {
+   "name": "silvally-water",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-water.png"
+  },
+  "10242": {
+   "name": "silvally-grass",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-grass.png"
+  },
+  "10243": {
+   "name": "silvally-electric",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-electric.png"
+  },
+  "10244": {
+   "name": "silvally-psychic",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-psychic.png"
+  },
+  "10245": {
+   "name": "silvally-ice",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-ice.png"
+  },
+  "10246": {
+   "name": "silvally-dragon",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-dragon.png"
+  },
+  "10247": {
+   "name": "silvally-dark",
+   "pokemon_name": "silvally",
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-dark.png"
+  }
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "probe_time": "2026-09-10 19:03:43",
+ "items": [
+  {
+   "label": "木木枭(普通)",
+   "url": "https://pokeapi.co/api/v2/pokemon/722",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/722.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/722.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/722.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png",
+   "front_reachable": true
+  },
+  {
+   "label": "狙射树枭(洗翠)",
+   "url": "https://pokeapi.co/api/v2/pokemon-form/decidueye-hisui",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10244.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10244.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10244.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10244.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10244.png",
+   "front_reachable": true
+  },
+  {
+   "label": "六尾(洗翠)",
+   "url": "https://pokeapi.co/api/v2/pokemon-form/vulpix-hisui",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "label": "九尾(洗翠)",
+   "url": "https://pokeapi.co/api/v2/pokemon-form/ninetales-hisui",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "label": "卡蒂狗(洗翠)",
+   "url": "https://pokeapi.co/api/v2/pokemon-form/growlithe-hisui",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10229.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10229.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10229.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10229.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10229.png",
+   "front_reachable": true
+  },
+  {
+   "label": "风速狗(洗翠)",
+   "url": "https://pokeapi.co/api/v2/pokemon-form/arcanine-hisui",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10230.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10230.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10230.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10230.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10230.png",
+   "front_reachable": true
+  },
+  {
+   "label": "索罗亚(洗翠)",
+   "url": "https://pokeapi.co/api/v2/pokemon-form/zorua-hisui",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10238.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10238.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10238.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10238.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10238.png",
+   "front_reachable": true
+  },
+  {
+   "label": "狃拉(洗翠)",
+   "url": "https://pokeapi.co/api/v2/pokemon-form/sneasel-hisui",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10235.png",
+    "back_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/10235.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10235.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10235.png",
+    "front_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/10235.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10235.png",
+    "back_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/10235.png",
+    "front_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/10235.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10235.png",
+   "front_reachable": true
+  },
+  {
+   "label": "裙儿小姐(洗翠)",
+   "url": "https://pokeapi.co/api/v2/pokemon-form/lilligant-hisui",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10237.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10237.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10237.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10237.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10237.png",
+   "front_reachable": true
+  },
+  {
+   "label": "黏美龙(洗翠)",
+   "url": "https://pokeapi.co/api/v2/pokemon-form/goodra-hisui",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10242.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10242.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10242.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10242.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10242.png",
+   "front_reachable": true
+  },
+  {
+   "label": "大狃拉(洗翠专属)",
+   "url": "https://pokeapi.co/api/v2/pokemon/903",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/903.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/903.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/903.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
+   "front_reachable": true
+  },
+  {
+   "label": "万针鱼(洗翠专属)",
+   "url": "https://pokeapi.co/api/v2/pokemon/904",
+   "sprites": {
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/904.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/904.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/904.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png"
+   },
+   "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png",
+   "front_reachable": true
+  }
+ ]
+}

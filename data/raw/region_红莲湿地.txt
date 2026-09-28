@@ -1,0 +1,74 @@
+{{地點信息框
+|image=红莲湿地 LA.png
+|type=濕地
+|name=紅蓮濕地
+|enname=Crimson Mirelands
+|jpname=紅蓮の湿地
+|slogan=
+|mapdesc=
+|map=none.png
+|location=[[天冠山麓]]東邊
+|generation={{gen|8}}
+|game={{Gameabbrevzh/8|LA}}
+|region=洗翠
+|connect=no
+}}
+{{N|紅蓮濕地||紅蓮の湿地|Crimson Mirelands}}是[[洗翠地區]]的區域。
+
+==地理==
+[[洗翠地区]]的三大湖泊之一的[[立志湖]]在这片区域。此区域地势南低北高，环境以湿地为主，中部是沼泽。[[金刚队]]的基地[[金刚聚落]]建立在立志湖西畔。
+
+==地點==
+*[[濕地基地]]
+*[[荒地基地]]
+*[[金色平野]]
+*[[大嘴沼澤]]
+*[[隨意遺跡]]
+*[[緋紅沼]]
+*[[泥炭台地]]
+*[[熊的比武場]]
+*[[金剛聚落]]
+*[[金剛後山]]
+*[[雲霧遺跡]]
+*[[隆隆坡]]
+*[[雲海山道]]
+*[[試煉沙洲]]
+*[[羽音原野]]
+*[[羊鬍草原]]
+*[[立志湖]]
+*[[立志湖洞窟]]
+*[[舞台戰場]]
+
+==宝可梦==
+{{main|红莲湿地/宝可梦}}
+
+===[[亚克诺姆]]===
+{{Quest/LA|M21}}中，亚克诺姆會出現在[[立志湖洞窟]]。
+
+===[[眷恋云]]===
+{{Quest/LA|Q94}}中，完成[[龙卷云]]、[[雷电云]]以及[[土地云]]的图鉴页面，向[[吾思]]报告之后，眷恋云會出現在[[緋紅沼]]。眷恋云会在緋紅沼附近一帶四處逃跑，並施放數個{{m|阳春风暴}}干擾主角，被命中了有機率會因陷入麻痺而一段時間無法移動。主角要繞過風暴並投出任何道具或宝可梦打破其身上的風牆。打破風牆三次後才可以進行捕捉或對戰。
+
+==名字==
+{{名字/header|origin=yes|濕地}} 
+{{名字/entry|ja|ぐれんのしっち|kanji=紅蓮の湿地|roma=Guren no Shitchi|來自「{{JP|{{langtt|ja|紅蓮|guren}}|ぐれん}}」（紅蓮；鮮紅色）。}}
+{{名字/entry|zh_nin|紅蓮濕地|simp=红莲湿地|來自「紅蓮」。}}
+{{名字/entry|en|Crimson Mirelands|來自 ''crimson''（緋紅）。}}
+{{名字/entry|fr|Marais Carmin|來自 ''carmin''（胭脂紅的）。}}
+{{名字/entry|de|Rotes Sumpfland|來自 ''Rot''（紅）。}}
+{{名字/entry|it|Acquitrino Vermiglio|來自 ''vermiglio''（朱紅）。}}
+{{名字/entry|es|Pantanal Carmesí|來自 ''carmesí''（洋紅的）。}}
+{{名字/entry|ko|홍련 습지|roma=Hongnyeon Seupji|來自「{{langtt|ko|홍련〈紅蓮〉|hongnyeon}}」（紅蓮）。|end=yes}}
+
+{{洗翠}}
+
+{{小作品|地点}}
+
+[[Category:洗翠地区地点]]
+[[Category:傳說阿爾宙斯地點]]
+
+[[de:Rotes Sumpfland]]
+[[en:Crimson Mirelands]]
+[[es:Pantanal Carmesí]]
+[[fr:Marais Carmin]]
+[[it:Acquitrino Vermiglio]]
+[[ja:紅蓮の湿地]]

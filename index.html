@@ -701,22 +701,25 @@ try {
   var _lq = location.search.match(/lang=(\w+)/);
   if (_lq && (_lq[1] === "en" || _lq[1] === "zh")) state.lang = _lq[1];
 } catch (e) {}
-function saveLang(){ try { localStorage.setItem("la_lang_v1", state.lang); } catch (e) {} serverSaveSoon(); }
+function saveLang(){ try { localStorage.setItem("la_lang_v1", state.lang); } catch (e) {} touchLocal("lang"); serverSaveSoon(); }
 serverLoad();
 function saveTeam(){
   try { localStorage.setItem(TEAM_VAR === "team6" ? TEAM6_KEY : TEAM_KEY, JSON.stringify(state[TEAM_VAR])); }
   catch (e) {}
+  touchLocal(TEAM_VAR);
   serverSaveSoon();
 }
 function saveMyTeam(){
   try { localStorage.setItem(MYTEAM_KEY, JSON.stringify(state.myTeam)); }
   catch (e) {}
+  touchLocal("myTeam");
   serverSaveSoon();
 }
 
 function saveCaptured(){
   try { localStorage.setItem(CAP_KEY, JSON.stringify(state.captured)); }
   catch (e) { toast("无法保存（存储不可用）"); }
+  touchLocal("captured");
   serverSaveSoon();
 }
 function toggleCaptured(no){
@@ -728,23 +731,40 @@ function toggleCaptured(no){
 /* ===== 服务器持久化：进度默认存到这台电脑（serve.py 提供 api/save）=====
  * 电脑 / iPad 打开同一个本地服务器地址时共享同一份数据；
  * 刷新、换浏览器、换设备（同一 WiFi）都不丢。线上环境 / file:// 打开时
- * 接口不存在或不可达，自动降级为浏览器 localStorage（与旧逻辑一致）。 */
+ * 接口不存在或不可达，自动降级为浏览器 localStorage（与旧逻辑一致）。
+ * 合并策略：图鉴按「并集」——两端新增都保留，不互相覆盖丢失；
+ * 队伍类按「修改时间」——本机 MT 时间戳 vs 服务器 mtime，谁更新选谁。 */
 var SERVER_OK = false;
 var SAVE_TIMER = null;
 var SAVE_LOADED = false;
+var MT_KEY = "la_mtime_v1";  // 本机各数据块最后修改时间（毫秒时间戳）
+var MT = {};
+try { var _mt0 = localStorage.getItem(MT_KEY); if (_mt0) MT = JSON.parse(_mt0) || {}; } catch (e) {}
+function touchLocal(k){
+  MT[k] = Date.now();
+  try { localStorage.setItem(MT_KEY, JSON.stringify(MT)); } catch (e) {}
+}
 function serverSaveSoon(){
   if (!SERVER_OK || SAVE_TIMER) return;
   SAVE_TIMER = setTimeout(function(){
     SAVE_TIMER = null;
     var payload = {
-      v: 1,
+      v: 2,
       captured: state.captured,
       team: state.team,
       team6: state.team6,
       myTeam: state.myTeam,
       lang: state.lang,
       showImg: state.showImg,
-      savedAt: new Date().toISOString()
+      savedAt: new Date().toISOString(),
+      mtime: {
+        captured: MT.captured || 0,
+        team: MT.team || 0,
+        team6: MT.team6 || 0,
+        myTeam: MT.myTeam || 0,
+        lang: MT.lang || 0,
+        showImg: MT.showImg || 0
+      }
     };
     fetch("api/save", {
       method: "POST",
@@ -760,10 +780,33 @@ function serverLoad(){
     return r.json();
   }).then(function(d){
     if (!d || !d.v) return;
-    if (d.captured && typeof d.captured === "object") state.captured = d.captured;
-    if (Array.isArray(d.team)) state.team = d.team;
-    if (Array.isArray(d.team6)) state.team6 = d.team6;
-    if (Array.isArray(d.myTeam)) state.myTeam = d.myTeam;
+    var sm = d.mtime || {};
+    function sTm(key, fallback){
+      var v = sm[key];
+      if (typeof v === "number") return v;
+      if (typeof fallback === "number") return fallback;
+      return 0;
+    }
+    var savedFallback = (typeof d.savedAt === "string") ? (Date.parse(d.savedAt) || 0) : 0;
+    // 图鉴：并集合并——两端新增都保留，不覆盖丢失
+    if (d.captured && typeof d.captured === "object"){
+      var merged = {}, k;
+      for (k in state.captured) if (state.captured[k]) merged[k] = true;
+      for (k in d.captured) if (d.captured[k]) merged[k] = true;
+      state.captured = merged;
+    }
+    // 队伍：谁的修改更新用谁的（本机 MT vs 服务器 mtime）
+    function pickNewer(localKey, serverVal){
+      if (!Array.isArray(serverVal)) return;
+      var sTime = sTm(localKey, savedFallback);
+      if ((MT[localKey] || 0) < sTime){
+        state[localKey] = serverVal;
+        MT[localKey] = sTime; // 本地时间同步为服务器时间，避免下次误判
+      }
+    }
+    pickNewer("team", d.team);
+    pickNewer("team6", d.team6);
+    pickNewer("myTeam", d.myTeam);
     if (d.lang === "en" || d.lang === "zh") state.lang = d.lang;
     if (d.showImg === false) state.showImg = false;
     try {
@@ -773,12 +816,15 @@ function serverLoad(){
       localStorage.setItem(MYTEAM_KEY, JSON.stringify(state.myTeam));
       localStorage.setItem("la_lang_v1", state.lang);
       localStorage.setItem(IMG_KEY, state.showImg ? "1" : "0");
+      localStorage.setItem(MT_KEY, JSON.stringify(MT));
     } catch (e) {}
     SERVER_OK = true;
     SAVE_LOADED = true;
+    serverSaveSoon(); // 合并结果写回服务器，两端保持一致
     render();
   }).catch(function(){ /* 降级：维持 localStorage */ });
 }
+
 
 /* ===== 宝可梦图片：PokeAPI 官方小尺寸 sprite，IntersectionObserver 懒加载，失败降级首字 =====
  * 数据内嵌 sprite id（dex[14]），URL 在线拼接；离线/断网时 onerror 触发 .noimg 占位。
@@ -819,6 +865,7 @@ function bindSprites(root){
 function saveImg(){
   try { localStorage.setItem(IMG_KEY, state.showImg ? "1" : "0"); }
   catch (e) {}
+  touchLocal("showImg");
   serverSaveSoon();
 }
 

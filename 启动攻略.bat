@@ -33,7 +33,7 @@ if not errorlevel 1 (
 )
 
 echo Starting server in a separate window...
-start "Hisui-Guide-Server" cmd /k "cd /d ""%ROOT%"" && python -m http.server 8000 --bind 0.0.0.0"
+start "Hisui-Guide-Server" cmd /k "cd /d ""%ROOT%"" && python serve.py 8000"
 timeout /t 2 /nobreak >nul
 start "" "http://localhost:8000/index.html"
 echo.

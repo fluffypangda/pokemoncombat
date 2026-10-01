@@ -701,24 +701,83 @@ try {
   var _lq = location.search.match(/lang=(\w+)/);
   if (_lq && (_lq[1] === "en" || _lq[1] === "zh")) state.lang = _lq[1];
 } catch (e) {}
-function saveLang(){ try { localStorage.setItem("la_lang_v1", state.lang); } catch (e) {} }
+function saveLang(){ try { localStorage.setItem("la_lang_v1", state.lang); } catch (e) {} serverSaveSoon(); }
+serverLoad();
 function saveTeam(){
   try { localStorage.setItem(TEAM_VAR === "team6" ? TEAM6_KEY : TEAM_KEY, JSON.stringify(state[TEAM_VAR])); }
   catch (e) {}
+  serverSaveSoon();
 }
 function saveMyTeam(){
   try { localStorage.setItem(MYTEAM_KEY, JSON.stringify(state.myTeam)); }
   catch (e) {}
+  serverSaveSoon();
 }
 
 function saveCaptured(){
   try { localStorage.setItem(CAP_KEY, JSON.stringify(state.captured)); }
   catch (e) { toast("无法保存（存储不可用）"); }
+  serverSaveSoon();
 }
 function toggleCaptured(no){
   if (state.captured[no]) delete state.captured[no];
   else state.captured[no] = true;
   saveCaptured();
+}
+
+/* ===== 服务器持久化：进度默认存到这台电脑（serve.py 提供 api/save）=====
+ * 电脑 / iPad 打开同一个本地服务器地址时共享同一份数据；
+ * 刷新、换浏览器、换设备（同一 WiFi）都不丢。线上环境 / file:// 打开时
+ * 接口不存在或不可达，自动降级为浏览器 localStorage（与旧逻辑一致）。 */
+var SERVER_OK = false;
+var SAVE_TIMER = null;
+var SAVE_LOADED = false;
+function serverSaveSoon(){
+  if (!SERVER_OK || SAVE_TIMER) return;
+  SAVE_TIMER = setTimeout(function(){
+    SAVE_TIMER = null;
+    var payload = {
+      v: 1,
+      captured: state.captured,
+      team: state.team,
+      team6: state.team6,
+      myTeam: state.myTeam,
+      lang: state.lang,
+      showImg: state.showImg,
+      savedAt: new Date().toISOString()
+    };
+    fetch("api/save", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(payload)
+    }).catch(function(){});
+  }, 400); // 防抖：连续操作合并成一次写盘
+}
+function serverLoad(){
+  if (location.protocol.indexOf("http") !== 0) return; // file:// 下无法访问
+  fetch("api/save").then(function(r){
+    if (!r.ok) throw 0; // 204/404：本机尚无保存或线上环境
+    return r.json();
+  }).then(function(d){
+    if (!d || !d.v) return;
+    if (d.captured && typeof d.captured === "object") state.captured = d.captured;
+    if (Array.isArray(d.team)) state.team = d.team;
+    if (Array.isArray(d.team6)) state.team6 = d.team6;
+    if (Array.isArray(d.myTeam)) state.myTeam = d.myTeam;
+    if (d.lang === "en" || d.lang === "zh") state.lang = d.lang;
+    if (d.showImg === false) state.showImg = false;
+    try {
+      localStorage.setItem(CAP_KEY, JSON.stringify(state.captured));
+      localStorage.setItem(TEAM_KEY, JSON.stringify(state.team));
+      localStorage.setItem(TEAM6_KEY, JSON.stringify(state.team6));
+      localStorage.setItem(MYTEAM_KEY, JSON.stringify(state.myTeam));
+      localStorage.setItem("la_lang_v1", state.lang);
+      localStorage.setItem(IMG_KEY, state.showImg ? "1" : "0");
+    } catch (e) {}
+    SERVER_OK = true;
+    SAVE_LOADED = true;
+    render();
+  }).catch(function(){ /* 降级：维持 localStorage */ });
 }
 
 /* ===== 宝可梦图片：PokeAPI 官方小尺寸 sprite，IntersectionObserver 懒加载，失败降级首字 =====
@@ -760,6 +819,7 @@ function bindSprites(root){
 function saveImg(){
   try { localStorage.setItem(IMG_KEY, state.showImg ? "1" : "0"); }
   catch (e) {}
+  serverSaveSoon();
 }
 
 /* =====================================================

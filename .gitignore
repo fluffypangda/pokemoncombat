@@ -13,3 +13,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# 本机进度备份（用户个人数据，不提交）
+save.json
+save.json.tmp
